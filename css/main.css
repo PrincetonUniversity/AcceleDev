@@ -1,5 +1,47 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
+body {
+    font-family: sans;
+}
+
 .header {
+    color: #9e0c0f;
+    background-color: #ebebeb;
+}
+
+.banner {
+    border-top: #fe0000 solid 8px;
+}
+
+.banner p {
+    color: #ffffff;
+    background: rgba(0, 0, 0, .6);
 }
 
 .content-section {
+    color: #800112;
+    border-top: #fe0000 solid 8px;
+}
+
+.footer {
+    color: #ffffff;
+    background-color: #3f020a;
+    border-top: #fe0000 solid 8px;
+    padding: 20px;
+}
+
+.odd-block {
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+}
+
+.even-block {
+    background-color: #ebebeb;
+    padding: 20px 30px 20px 30px;
 }
