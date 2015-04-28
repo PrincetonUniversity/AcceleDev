@@ -8,40 +8,70 @@ html, body, h1, h2, h3, h4, ul, ol, li, p, a {
 
 body {
     font-family: Helvetica, sans;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 40px;
 }
 
 .header {
-    color: #9e0c0f;
     background-color: #ebebeb;
+    color: #9e0c0f;
+}
+
+.topbar {
+    margin: 0 auto 0 auto;
+    padding: 48px 0 48px 0;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 24px;
 }
 
 .banner {
-    border-top: #fe0000 solid 8px;
+    background: #3f020a
+                url("/data/Projects/websites/AcceleDev/acceledev_site/images/merp/banner_h448.png")
+                top
+                center
+                no-repeat;
+    border-top: #fe0000 solid 6px;
+    height: 448px;
 }
 
 .banner p {
-    color: #ffffff;
     background: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    font-size: 20px;
+    height: 80px;
+    margin-top: 368px;
+    padding: 20px;
 }
 
 .content-section {
+    border-top: #fe0000 solid 6px;
     color: #800112;
-    border-top: #fe0000 solid 8px;
 }
 
 .footer {
-    color: #ffffff;
     background-color: #3f020a;
-    border-top: #fe0000 solid 8px;
+    border-top: #fe0000 solid 6px;
+    color: #ffffff;
     padding: 20px;
 }
 
 .odd-block {
     background-color: #ffffff;
-    padding: 20px 30px 20px 30px;
 }
 
 .even-block {
     background-color: #ebebeb;
-    padding: 20px 30px 20px 30px;
+}
+
+.content-row {
+    margin: 0 auto 0 auto;
+    padding: 32px 0 32px 0;
+    width: 1024px;
 }
