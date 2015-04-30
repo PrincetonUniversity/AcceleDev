@@ -1,0 +1,50 @@
+h3 {
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.upper-icon-row {
+    text-align: center;
+}
+
+.lower-icon-row {
+    text-align: center;
+}
+
+.upper-block {
+    display: inline-block;
+    margin: 0 20px 0px 20px;
+    width: 330px;
+}
+
+.lower-block {
+    display: inline-block;
+    margin: 64px 64px 24px 64px;
+    text-align: left;
+    max-width: 264px;
+}
+
+.lower-block-text {
+    display: inline-block;
+    margin-top: 30px;
+    width: 264px;
+}
+
+#map {
+    height: 128px;
+    margin-left: -24px;
+}
+
+#darkhex {
+    height: 128px;
+}
+
+#randd {
+    height: 80px;
+    padding-bottom: 20px;
+}

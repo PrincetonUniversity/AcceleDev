@@ -4,6 +4,9 @@
 <title>AcceleDev - Home</title>
 
 <link href='css/main.css' rel='stylesheet'>
+<link href='css/home.css' rel='stylesheet'>
+<link rel="stylesheet" 
+      href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
 
 </head>
 
@@ -11,15 +14,18 @@
 <body>
 <div class='header'>
   <div class='topbar'>
-    <h1>Welcome to AcceleDev.</h1>
+    <h1><span class='welcome'>Welcome to </span>AcceleDev.</h1>
 
-    <ul class='nav'>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="facilities.html">Facilities</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class='navcontainer'>
+      <ul class='nav'>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="facilities_usa.html">Facilities</a></li>
+        <li><a href="facilities_china.html">China</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
 
   </div>
 
@@ -40,12 +46,23 @@
     <div class='content-row'>
       <h2>What we offer</h2>
 
-      <h4>Innovative Process Design</h4>
+      <div class='upper-icon-row'>
+        <div class='upper-block'>
+          <img src="images/merp/placeholder_192x146.png" alt='Design'>
+          <h3>Innovative Process Design</h3>
+        </div>
 
-      <h4>Process Development</h4>
+        <div class='upper-block'>
+          <img src="images/merp/placeholder_192x146.png" alt='Development'>
+          <h3>Process Development</h3>
+        </div>
 
-      <h4>Pilot &amp; Commercial Production</h4>
+        <div class='upper-block'>
+          <img src="images/merp/placeholder_192x146.png" alt='Production'>
+          <h3>Pilot &amp; Commercial Production</h3>
+        </div>
 
+      </div>
     </div>
   </div>
 
@@ -54,29 +71,53 @@
     <div class='content-row'>
       <h2>Why we're unique</h2>
 
-      <h4>Native in the US &amp; China</h4>
+      <div class='lower-icon-row'>
+        <div class='lower-block'>
+          <img id='map' src="images/icons/Map.png" alt='Map.png'>
 
-      <p>
-      We have a decade of experience operating coordinated facilities in the
-      Eastern and Western hemispheres, so nothing gets lost in translation.
-      </p>
+          <div class='lower-block-text'>
+            <h3>Native in the US &amp; China</h3>
 
-      <h4>Every Step</h4>
+            <p>
+            We have a decade of experience operating coordinated facilities 
+            <br>in the Eastern and Western hemispheres, so nothing gets 
+            <br>lost in translation.
+            </p>
 
-      <p>
-      From preliminary R&amp;D to full-scale production and from milligram to
-      metric ton, we have the knowledge and tools to step in at any point along
-      the development pipeline.
-      </p>
+          </div>
+        </div>
 
-      <h4>R&amp;D Expertise</h4>
+        <div class='lower-block'>
+          <img id='darkhex' src="images/icons/Hex.png" alt="Hex.png">
 
-      <p>
-      Our chemists have years of expertise in chemical synthesis and
-      pharmaceutical development and production, and are always abreast of the
-      industry standard.
-      </p>
+          <div class='lower-block-text'>
+            <h3>Every Step</h3>
 
+            <p>
+            From preliminary R&amp;D to full-scale production and from milligram to
+            metric ton, we have the knowledge and tools to step in at any point 
+            along the development pipeline.
+            </p>
+            
+          </div>
+        </div>
+
+        <div class='lower-block'>
+          <img id='randd' src="images/icons/RD.png" alt='RD.png'>
+
+          <div class='lower-block-text'>
+            <h3>R&amp;D Expertise</h3>
+
+            <p>
+            Our chemists have years of experience in chemical synthesis and
+            pharmaceutical development and production, and are always abreast of the
+            industry standard.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
