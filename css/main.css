@@ -1,42 +1,18 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+}
+
 body {
-    background-color: #3f020a;
-    color: #800112;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
-
-a {
-    color: #ff0000;
-}
-
-header, main {
-    background-color: #ebebeb;
-}
-
-nav {
-    margin-top: -38px;
-    margin-bottom: 40px;
-}
-
-nav li {
-    display: inline;
+    font-family: "Open Sans", serif;
     font-size: 16px;
-    margin-right: 40px;
 }
 
-nav a {
-    color: #800112;
-    text-decoration: none;
-}
-
-nav a:hover {
-    color: #ff0000;
-}
-
-footer {
-    border-top: #ff0000 solid 7px;
-    color: #ffffff;
-    padding: 24px 0 20px 0;
+h1 {
+    font-size: 40px;
 }
 
 h2 {
@@ -47,60 +23,97 @@ h2 {
 h3 {
     font-size: 20px;
     font-weight: 600;
+    margin-top: 20px;
 }
 
-.active {
-    border-bottom: 3px solid #800112;
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #fe0000;
+}
+
+.header {
+    background-color: #ebebeb;
+    color: #9e0c0f;
+}
+
+.topbar {
+    margin: 0 auto 0 auto;
+    padding: 48px 0 48px 0;
+    text-align: center;
+}
+
+.welcome {
+    font-weight: 300;
+}
+
+.navcontainer {
+    border-top: 3px solid #9e0c0f;
+    margin: 0 auto 0 auto;
+    max-width: 768px;
+}
+
+.nav li {
+    display: inline;
+    padding-right: 24px;
+}
+
+.nav a {
+    color: #800112;
+    text-decoration: none;
 }
 
 .banner {
-    background-position: top center;
+    background: #3f020a
+                url("/images/banners/Home_Photo.png")
+                top
+                center
+                no-repeat;
     background-size: cover;
-    border-top: #ff0000 solid 7px;
-    border-bottom: #ff0000 solid 7px;
-    color: #ffffff;
-    font-size: 18px;
+    border-top: #fe0000 solid 7px;
     height: 412px;
     position: relative;
 }
 
-.banner-caption {
-    background-color: rgba(0, 0, 0, .6);
+.banner p {
+    background: rgba(0, 0, 0, .6);
     bottom: 0;
-    padding: 15px 0 10px 0;
+    color: #ffffff;
+    font-size: 20px;
+    left: 0;
+    padding: 15px 15px 15px 25px;
     position: absolute;
-    width: 100%;
+    right: 0;
 }
 
-.odd {
+.content-section {
+    border-top: #fe0000 solid 7px;
+    color: #800112;
+}
+
+.footer {
+    background-color: #3f020a;
+    border-top: #fe0000 solid 7px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.odd-block {
     background-color: #ffffff;
 }
 
-.odd, .even {
-    padding: 20px 0 20px 0;
+.even-block {
+    background-color: #ebebeb;
 }
 
-.logo-box {
-    height: 120px;
-    position: relative;
-    overflow: hidden;
+.content-row {
+    margin: 0 auto 0 auto;
+    padding: 32px 0 64px 0;
+    width: 1200px;
 }
 
-#logo-words {
-    left: 0;
-    margin-top: 40px;
-    height: 40px;
-    position: absolute;
+.content-row ul {
+    list-style-type: none;
 }
-
-#logo-hex {
-    height: 40px;
-    margin-top: 60px;
-    position: absolute;
-    right: 0px;
-}
-
-#welcome {
-    font-weight: 300;
-}
-
