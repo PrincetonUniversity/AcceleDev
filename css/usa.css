@@ -1,7 +1,10 @@
 h3 {
     margin-bottom: 20px;
 }
-
+ul {
+    margin-left: -36px;
+    padding-bottom: 24px;
+}
 .banner {
     background-image: url("/images/banners/US_Labs_Photo.png");
 }
