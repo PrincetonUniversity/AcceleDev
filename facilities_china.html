@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>AcceleDev - Facilities, China</title>
+<title>AcceleDev - China Facility</title>
 
+<link href='css/bootstrap.min.css' rel='stylesheet'>
 <link href='css/main.css' rel='stylesheet'>
 <link href='css/china.css' rel='stylesheet'>
-<link rel="stylesheet" 
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+<link rel='stylesheet' 
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
 
 </head>
 
 
 <body>
-<div class='header'>
-  <div class='topbar'>
-    <h1><span class='welcome'>Welcome to </span>AcceleDev.</h1>
+<header>
+  <div class='container'>
+    <div class='row'>
+      <div class='logo-box hidden-sm hidden-xs'>
+        <img id='logo-words' src="images/navbar/words_and_bar.png">
+        <img id='logo-hex' src="images/navbar/bar_and_hex.png">
+      </div>
 
-    <div class='navcontainer'>
-      <ul class='nav'>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="facilities_usa.html">Facilities</a></li>
-        <li><a href="facilities_china.html">China</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class='mobile-logo visible-sm visible-xs'>
+        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
+        <br>
+        <img id='mobile-hex' src='images/navbar/hex.png'>
+      </div>
+
+      <div class='col-lg-offset-4
+                  col-md-8 col-md-offset-3 
+                  col-sm-10 col-sm-offset-1'>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="facilities_usa.html">Facilities</a></li>
+            <li class='active'>China</li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
     </div>
-
   </div>
 
-  <div class='banner'>
-    <p>
-    Staffed by industry experts and located in proximity to numerous
-    pharmaceutical companies and Princeton University, our New Jersey
-    site is among the best R&amp;D facilities in the country.
-    </p>
+  <div class='banner hidden-sm hidden-xs'>
+    <div class='banner-caption'>
+      <div class='container'>
+        <div class='row'>
+          <p>
+          We operate and partner with multiple coordinated commercial
+          production facilities in China, all staffed by expert
+          chemists, analysts, logisticians, and production staff.
+          </p>
+        </div>
 
+      </div>
+    </div>
   </div>
+</header>
 
+
+<main>
+<div class='mobile-banner visible-sm visible-xs'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We operate and partner with multiple coordinated commercial
+        production facilities in China, all staffed by expert
+        chemists, analysts, logisticians, and production staff.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-<div class='content-section'>
-  <div class='odd-block'>
-    <div class='content-row'>
+<div class='odd'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>Chinese Labs and Facilities</h2>
 
       <p>
@@ -73,20 +110,25 @@
       </p>
 
     </div>
+    </div>
+
   </div>
+</div>
 
 
-  <div class='even-block'>
-    <div class='content-row'>
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>Equipment and Capabilities</h2>
 
       <h3>Pilot and Commercial Reactors</h3>
 
       <ul>
-        <li>Glass lined: 3x100L; 1x200L; 2x300L; 
+        <li>// Glass lined: 3x100L; 1x200L; 2x300L; 
             4x500L; 4x1000l; 2x1500L; 3x2000L</li>
-        <li>Stainless steel: 2x300L; 1x500L; 1x1000L</li>
-        <li>Teflon lined: 1x200L; 1x500L; 1x1000L; 1x2000L</li>
+        <li>// Stainless steel: 2x300L; 1x500L; 1x1000L</li>
+        <li>// Teflon lined: 1x200L; 1x500L; 1x1000L; 1x2000L</li>
       </ul>
 
       <h3>High-Pressure Reactors</h3>
@@ -138,15 +180,26 @@
       </ul>
 
     </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
+    </div>
   </div>
 
-</div>
+</footer>
 
 
-<div class='footer'>
-  <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
-
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>

@@ -1,50 +1,41 @@
 h3 {
     font-style: italic;
-    margin-bottom: 6px;
 }
 
-p {
-    font-size: 16px;
-    line-height: 19px;
+.banner {
+    background-image: url("/images/banners/Home_Photo.png");
 }
 
-.upper-icon-row {
+.mobile-title {
+    padding: 10px 0 20px 0;
     text-align: center;
 }
 
-.lower-icon-row {
+.offer, .unique {
+    margin-top: 32px;
+    margin-bottom: 64px;
     text-align: center;
 }
 
-.upper-block {
-    display: inline-block;
-    margin: 0 20px 0px 20px;
-    width: 330px;
+.unique {
+    margin-bottom: 20px;
 }
 
-.lower-block {
+.icon {
+    height: 160px;
+    width: 256px;
+}
+
+.unique-text {
     display: inline-block;
-    margin: 64px 64px 24px 64px;
     text-align: left;
-    max-width: 264px;
+    /*width: 296px;*/
 }
 
-.lower-block-text {
-    display: inline-block;
-    margin-top: 30px;
-    width: 264px;
+#map, #darkhex, #randd {
+    margin: 32px 0 32px 0;
+    height: auto;
+    min-height: 256px;
+    width: 100%;
 }
 
-#map {
-    height: 128px;
-    margin-left: -24px;
-}
-
-#darkhex {
-    height: 128px;
-}
-
-#randd {
-    height: 80px;
-    padding-bottom: 20px;
-}

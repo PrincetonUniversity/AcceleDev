@@ -4,10 +4,10 @@
 <title>AcceleDev - Home</title>
 
 <link href='css/bootstrap.min.css' rel='stylesheet'>
-<link href='css/main2.css' rel='stylesheet'>
-<link href='css/home2.css' rel='stylesheet'>
+<link href='css/main.css' rel='stylesheet'>
+<link href='css/home.css' rel='stylesheet'>
 <link rel='stylesheet' 
-href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
 
 </head>
 
@@ -16,17 +16,20 @@ href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,40
 <header>
   <div class='container'>
     <div class='row'>
-      <!--
-        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
-        -->
-      <div class='logo-box'>
+      <div class='logo-box hidden-sm hidden-xs'>
         <img id='logo-words' src="images/navbar/words_and_bar.png">
         <img id='logo-hex' src="images/navbar/bar_and_hex.png">
       </div>
 
-      <div class='col-sm-11 col-sm-offset-1
-        col-md-8 col-md-offset-4
-        col-lg-7'>
+      <div class='mobile-logo visible-sm visible-xs'>
+        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
+        <br>
+        <img id='mobile-hex' src='images/navbar/hex.png'>
+      </div>
+
+      <div class='col-lg-offset-4
+                  col-md-8 col-md-offset-3 
+                  col-sm-10 col-sm-offset-1'>
         <nav>
           <ul>
             <li class='active'>Home</li>
@@ -42,7 +45,7 @@ href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,40
     </div>
   </div>
 
-  <div class='banner'>
+  <div class='banner hidden-sm hidden-xs'>
     <div class='banner-caption'>
       <div class='container'>
         <div class='row'>
@@ -60,29 +63,44 @@ href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,40
 
 
 <main>
+<div class='mobile-banner visible-sm visible-xs'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We are a chemical company specializing in the design, development, and
+        production of multistep synthetic pathways to unique raw materials, 
+        intermediates, and active ingredients.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class='odd'>
   <div class='container'>
     <div class='row'>
-      <h2>What we offer</h2>
+      <h2 class='hidden-sm hidden-xs'>What we offer</h2>
+      <h2 class='mobile-title visible-sm visible-xs'>What we offer</h2>
 
-      <div class='col-md-10 col-md-offset-1
-                  col-lg-4 col-lg-offset-0'>
+      <div class='col-sm-10 col-sm-offset-1
+        col-md-4 col-md-offset-0'>
         <div class='offer'>
           <img class='icon' src='images/icons/IPD.png' alt='Design'>
           <h3>Innovative Process Design</h3>
         </div>
       </div>
 
-      <div class='col-md-10 col-md-offset-1 
-                  col-lg-4 col-lg-offset-0'>
+      <div class='col-sm-10 col-sm-offset-1 
+        col-md-4 col-md-offset-0'>
         <div class='offer'>
           <img class='icon' src='images/icons/PD.png' alt='Development'>
           <h3>Process Development</h3>
         </div>
       </div>
 
-      <div class='col-md-10 col-md-offset-1
-                  col-lg-4 col-lg-offset-0'>
+      <div class='col-sm-10 col-sm-offset-1
+        col-md-4 col-md-offset-0'>
         <div class='offer'>
           <img class='icon' src='images/icons/PandCP.png' alt='Production'>
           <h3>Pilot &amp; Commercial Production</h3>
@@ -98,50 +116,54 @@ href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,40
 <div class='even'>
   <div class='container'>
     <div class='row'>
-      <h2>Why we're unique</h2>
+      <h2 class='hidden-sm hidden-xs'>Why we're unique</h2>
+      <h2 class='mobile-title visible-sm visible-xs'>Why we're unique</h2>
 
-      <div class='col-lg-4 col-lg-offset-0 col-md-10 col-md-offset-1'>
+      <div class='col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1'>
         <div class='unique'>
           <img id='map' src="images/icons/Map.png" alt='Map.png'>
-
           <br>
-          <h3>Native in the US &amp; China</h3>
-          <br>
-          <p>
-          We have a decade of experience operating coordinated facilities 
-          in the Eastern and Western hemispheres, so nothing gets 
-          lost in translation.
-          </p>
+          <div class='unique-text'>
+            <h3>Native in the US &amp; China</h3>
+            <br>
+            <p>
+            We have a decade of experience operating coordinated facilities 
+            in the Eastern and Western hemispheres, so nothing gets 
+            lost in translation.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class='col-lg-4 col-lg-offset-0 col-md-10 col-md-offset-1'>
+      <div class='col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1'>
         <div class='unique'>
           <img id='darkhex' src="images/icons/Hex.png" alt="Hex.png">
-
           <br>
-          <h3>Every Step</h3>
-          <br>
-          <p>
-          From preliminary R&amp;D to full-scale production and from milligram to
-          metric ton, we have the knowledge and tools to step in at any point 
-          along the development pipeline.
-          </p>
+          <div class='unique-text'>
+            <h3>Every Step</h3>
+            <br>
+            <p>
+            From preliminary R&amp;D to full-scale production and from milligram to
+            metric ton, we have the knowledge and tools to step in at any point 
+            along the development pipeline.
+            </p>
+          </div>
         </div>
       </div>
 
-      <div class='col-lg-4 col-lg-offset-0 col-md-10 col-md-offset-1'>
+      <div class='col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1'>
         <div class='unique'>
           <img id='randd' src="images/icons/RD.png" alt='RD.png'>
-
           <br>
-          <h3>R&amp;D Expertise</h3>
-          <br>
-          <p>
-          Our chemists have years of experience in chemical synthesis and
-          pharmaceutical development and production, and are always abreast of the
-          industry standard.
-          </p>
+          <div class='unique-text'>
+            <h3>R&amp;D Expertise</h3>
+            <br>
+            <p>
+            Our chemists have years of experience in chemical synthesis and
+            pharmaceutical development and production, and are always abreast of the
+            industry standard.
+            </p>
+          </div>
         </div>
       </div>
 

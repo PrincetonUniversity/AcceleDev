@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>AcceleDev - About</title>
+<title>AcceleDev - About Us</title>
 
+<link href='css/bootstrap.min.css' rel='stylesheet'>
 <link href='css/main.css' rel='stylesheet'>
 <link href='css/about.css' rel='stylesheet'>
-<link rel="stylesheet" 
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+<link rel='stylesheet' 
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
 
 </head>
 
 
 <body>
-<div class='header'>
-  <div class='topbar'>
-    <h1><span class='welcome'>Welcome to </span>AcceleDev.</h1>
+<header>
+  <div class='container'>
+    <div class='row'>
+      <div class='logo-box hidden-sm hidden-xs'>
+        <img id='logo-words' src="images/navbar/words_and_bar.png">
+        <img id='logo-hex' src="images/navbar/bar_and_hex.png">
+      </div>
 
-    <div class='navcontainer'>
-      <ul class='nav'>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="facilities_usa.html">Facilities</a></li>
-        <li><a href="facilities_china.html">China</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+      <div class='mobile-logo visible-sm visible-xs'>
+        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
+        <br>
+        <img id='mobile-hex' src='images/navbar/hex.png'>
+      </div>
+
+      <div class='col-lg-offset-4
+                  col-md-8 col-md-offset-3 
+                  col-sm-10 col-sm-offset-1'>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class='active'>About</li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="facilities_usa.html">Facilities</a></li>
+            <li><a href="facilities_china.html">China</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
     </div>
-
   </div>
 
-  <div class='banner'>
-    <p>
-    We are a chemical company specializing in the design, development, and
-    production of multistep synthetic pathways to unique raw materials, 
-    intermediates, and active ingredients.
-    </p>
+  <div class='banner hidden-sm hidden-xs'>
+    <div class='banner-caption'>
+      <div class='container'>
+        <div class='row'>
+          <p>
+          We are a chemical company specializing in the design, development, and
+          production of multistep synthetic pathways to unique raw materials, 
+          intermediates, and active ingredients.
+          </p>
+        </div>
 
+      </div>
+    </div>
   </div>
+</header>
 
+
+<main>
+<div class='mobile-banner visible-sm visible-xs'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We are a chemical company specializing in the design, development, and
+        production of multistep synthetic pathways to unique raw materials, 
+        intermediates, and active ingredients.
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-<div class='content-section'>
-  <div class='odd-block'>
-    <div class='content-row'>
+<div class='odd'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>History</h2>
 
       <p>
@@ -65,11 +102,16 @@
       </p>
 
     </div>
+    </div>
+
   </div>
+</div>
 
 
-  <div class='even-block'>
-    <div class='content-row'>
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>What we do</h2>
 
       <p>
@@ -86,11 +128,15 @@
       </p>
 
     </div>
+    </div>
   </div>
+</div>
 
 
-  <div class='odd-block'>
-    <div class='content-row'>
+<div class='odd'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>Who we are</h2>
 
       <p>
@@ -103,11 +149,16 @@
       </p>
 
     </div>
+    </div>
+
   </div>
+</div>
 
 
-  <div class='even-block'>
-    <div class='content-row'>
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
       <h2>Why we're unique</h2>
 
       <h3>Native in the US. Native in China.</h3>
@@ -159,15 +210,26 @@
       </p>
 
     </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
+    </div>
   </div>
 
-</div>
+</footer>
 
 
-<div class='footer'>
-  <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
-
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 </html>
