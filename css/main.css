@@ -95,7 +95,8 @@ main li {
     background-size: cover;
     border-top: #ff0000 solid 7px;
     color: #ffffff;
-    /*font-size: 18px;*/
+    font-size: 1.1rem;
+    font-weight: 300;
     height: 412px;
     position: relative;
 }
