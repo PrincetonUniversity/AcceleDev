@@ -1,5 +1,6 @@
 h3 {
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .banner {
@@ -11,19 +12,22 @@ h3 {
     text-align: center;
 }
 
-.offer, .unique {
+.offer {
     margin-top: 32px;
     margin-bottom: 64px;
     text-align: center;
 }
 
 .unique {
+    margin: 20px auto 20px auto;
     margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
 }
 
 .icon {
-    height: 160px;
-    width: 256px;
+    height: auto;
+    width: 100%;
 }
 
 .unique-text {
@@ -33,9 +37,12 @@ h3 {
 }
 
 #map, #darkhex, #randd {
-    margin: 32px 0 32px 0;
+    margin: 32px auto 32px auto;
     height: auto;
-    min-height: 256px;
-    width: 100%;
+    width: 96%;
 }
 
+#map {
+    margin: 32px 0 32px -10%;
+    width: 120%;
+}
