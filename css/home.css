@@ -34,13 +34,13 @@ h3 {
     width: 90%;
 }
 
-#map, #darkhex, #randd {
-    margin: 32px auto 32px auto;
+#map, #every-step, #randd {
+    margin: 32px auto 24px auto;
     height: auto;
     width: 90%;
 }
 
 #map {
-    margin: 32px 0 32px -10%;
+    margin: 32px 0 24px -5%;
     width: 120%;
 }
