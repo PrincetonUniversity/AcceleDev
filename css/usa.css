@@ -6,7 +6,7 @@ main ul {
     padding-bottom: 24px;
 }
 .banner {
-    background-image: url("/images/banners/US_Labs_Photo.png");
+    background-image: url("/images/banners/US_Labs_Photo_sm.png");
 }
 
 @media (max-width: 767px) {
