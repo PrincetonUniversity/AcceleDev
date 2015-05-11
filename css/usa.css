@@ -8,3 +8,10 @@ main ul {
 .banner {
     background-image: url("/images/banners/US_Labs_Photo.png");
 }
+
+@media (max-width: 767px) {
+  #facilities-dropdown li {
+      margin: 0 auto 0 auto;
+      border-top: 0;
+  }
+}

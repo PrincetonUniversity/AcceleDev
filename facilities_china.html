@@ -18,13 +18,18 @@
   <div class='container'>
     <div class='row'>
       <div class='logo-box hidden-sm hidden-xs'>
-        <img id='logo-words' src="images/navbar/words_and_bar.png">
-        <img id='logo-hex' src="images/navbar/bar_and_hex.png">
+        <img id='logo-words' src="images/navbar/Words_and_Bar.png">
+        <img id='logo-hex' src="images/navbar/Bar_and_Hexes.png">
       </div>
 
       <div class='mobile-logo visible-sm visible-xs'>
         <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
-        <img id='mobile-hex' src='images/navbar/hex.png'>
+          <img data-toggle='collapse'
+               data-target='#mobile-menu'
+               aria-expanded='false'
+               aria-controls='mobile-menu'
+               href='#mobile-menu'
+               id='mobile-hex' src='images/navbar/hex.png'>
       </div>
 
       <div class='col-lg-offset-4
@@ -32,14 +37,50 @@
                   col-sm-12'>
         <div class='visible-sm visible-xs' style='height:16px;'></div>
         <nav class='main-nav'>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="facilities_usa.html">Facilities</a></li>
-            <li class='active'>China</li>
-            <li><a href="contact.html">Contact</a></li>
+          <ul class='collapse hidden-lg hidden-md' id='mobile-menu'>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class='dropdown visible-xs' id='facilities'>
+                <div class='active' data-toggle='collapse'
+                     data-parent='#facilities'
+                     href='#facilities-dropdown'
+                     aria-expanded='false'
+                     aria-controls='facilities-dropdown'>
+                  <a>Facilities</a>
+                </div>
+                <ul class="collapse" id="facilities-dropdown">
+                  <li><a href="facilities_usa.html">U.S.A.</a></li>
+                  <li><a href="facilities_china.html">China</a></li>
+                </ul>
+              </li>
+              <li class='dropdown hidden-xs' id='facilities'>
+                <a class='active' data-toggle='dropdown'>Facilities</a>
+                <ul class="dropdown-menu" id="facilities-dropdown">
+                  <li><a href="facilities_usa.html">U.S.A.</a></li>
+                  <li><a href="facilities_china.html">China</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
           </ul>
+          
+
+          <div class='hidden-sm hidden-xs'>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class='dropdown' id='facilities'>
+                <a class='active' data-toggle='dropdown'>
+                    Facilities</a>
+                  <ul class="dropdown-menu" id="facilities-dropdown">
+                    <li><a href="facilities_usa.html">U.S.A.</a></li>
+                    <li><a href="facilities_china.html">China</a></li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
 
