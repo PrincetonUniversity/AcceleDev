@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>AcceleDev - Facilities</title>
+<title>AcceleDev - Production Facility</title>
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <link href='css/bootstrap.min.css' rel='stylesheet'>
 <link href='css/main.css' rel='stylesheet'>
+<link href='css/china.css' rel='stylesheet'>
 <link rel='stylesheet' 
     href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
 
@@ -39,29 +40,34 @@
           <ul class='collapse hidden-lg hidden-md' id='mobile-menu'>
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
               <li><a href="services.html">Services</a></li>
               <li class='dropdown visible-xs' id='facilities'>
-                <div data-toggle='collapse'
+                <div class='active' data-toggle='collapse'
                      data-parent='#facilities'
                      href='#facilities-dropdown'
                      aria-expanded='false'
                      aria-controls='facilities-dropdown'>
-                  <a>Facilities</a>
+                  <a href='rnd_usa.html'>Facilities</a>
                 </div>
                 <ul class="collapse" id="facilities-dropdown">
-                  <li><a href="facilities_usa.html">U.S.A.</a></li>
-                  <li><a href="facilities_china.html">China</a></li>
+                  <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                  <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                  <li><a href="production.html">Production Facilities</a></li>
                 </ul>
               </li>
               <li class='dropdown hidden-xs' id='facilities'>
-                <a data-toggle='dropdown'>
-                    Facilities</a>
-                  <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="facilities_usa.html">U.S.A.</a></li>
-                    <li><a href="facilities_china.html">China</a></li>
-                  </ul>
+                <a class='active'
+                   data-toggle='dropdown' 
+                   href='rnd_usa.html'>
+                  Facilities</a>
+                <ul class="dropdown-menu" id="facilities-dropdown">
+                  <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                  <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                  <li><a href="production.html">Production Facilities</a></li>
+                </ul>
               </li>
-              <li class='active'>Contact</li>
+              <li><a href="contact.html">Contact</a></li>
           </ul>
           
 
@@ -69,16 +75,22 @@
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
               <li><a href="services.html">Services</a></li>
               <li class='dropdown' id='facilities'>
-                <a data-toggle='dropdown'>
-                    Facilities</a>
+                <a class='active' 
+                   data-toggle='dropdown' 
+                   href='rnd_usa.html'>
+                  Facilities</a>
                   <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="facilities_usa.html">U.S.A.</a></li>
-                    <li><a href="facilities_china.html">China</a></li>
+                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                    <li>
+                      <a href="production.html">Production Facilities</a>
+                    </li>
                   </ul>
               </li>
-              <li class='active'>Contact</li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -92,9 +104,9 @@
       <div class='container'>
         <div class='row'>
           <p>
-          We are a chemical company specializing in the design, development, and
-          production of multistep synthetic pathways to unique raw materials, 
-          intermediates, and active ingredients.
+          We operate and partner with multiple coordinated commercial
+          production facilities in China, all staffed by expert
+          chemists, analysts, logisticians, and production staff.
           </p>
         </div>
 
@@ -109,11 +121,11 @@
   <div class='container'>
     <div class='row'>
       <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-          <p>
-          We are a chemical company specializing in the design, development, and
-          production of multistep synthetic pathways to unique raw materials, 
-          intermediates, and active ingredients.
-          </p>
+        <p>
+        We operate and partner with multiple coordinated commercial
+        production facilities in China, all staffed by expert
+        chemists, analysts, logisticians, and production staff.
+        </p>
       </div>
     </div>
   </div>
@@ -123,16 +135,14 @@
   <div class='container'>
     <div class='row'>
       <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-      <h2>Facilities</h2>
-      
-      <a href="facilities_usa.html">USA</a><br>
-      <a href="facilities_china.html">China</a>
+        <h2>Production Facilities Page</h2>
 
-    </div>
+      </div>
     </div>
 
   </div>
 </div>
+
 
 </main>
 
