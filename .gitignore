@@ -1,3 +1,2 @@
-old/
-css/old/
-fonts
+*.swp
+*.swo
