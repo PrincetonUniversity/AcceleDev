@@ -1,0 +1,9 @@
+main h2 {
+  font-size: 1.8rem;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+main p {
+  font-size: 1rem;
+  padding-bottom: 0px;
+}
