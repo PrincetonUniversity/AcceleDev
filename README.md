@@ -6,6 +6,17 @@ Things to ask Charlie about from keynotes doc:
 - Should news page be ascending or descending?
 - I changed a lot of your text because it sounded horrible. Is the new
   text acceptable?
+  - Most importantly, I did not change the home page blurbs. You cannot
+    call yourself a "chemistry company" because it will not sound 'unique',
+    it will sound ungramatical. Additionally, the "Why we're unique" blurbs
+    are meant to be SHORT and CLEVER. It will look very bad to put the
+    long-winded, description-laden paragraphs you sent me. That's why
+    they link to the ABOUT PAGE for MORE INFORMATION!
+  - Also, I chose to not delete some of the sections you eliminated
+    because I feel they add important information about the company's
+    capabilities and advantages.
+- A lot of the text you requested on the new Production Facilities page
+  is identical to the Nanjing R&D page. This should probably be changed.
 
 ###### ###### ###### ###### ###### ######### ###### ###### ###### ###### ###### 
 
