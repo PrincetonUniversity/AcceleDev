@@ -12,6 +12,7 @@ Things to ask Charlie about from keynotes doc:
     are meant to be SHORT and CLEVER. It will look very bad to put the
     long-winded, description-laden paragraphs you sent me. That's why
     they link to the ABOUT PAGE for MORE INFORMATION!
+    (I put some of the things you wanted in the About page where they belong)
   - Also, I chose to not delete some of the sections you eliminated
     because I feel they add important information about the company's
     capabilities and advantages.
