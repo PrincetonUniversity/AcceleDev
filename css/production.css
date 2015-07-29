@@ -14,3 +14,6 @@ main ul {
       border-top: 0;
   }
 }
+#low-temp {
+    margin-top: -16px;
+}

@@ -141,11 +141,11 @@ h3 {
 
 main p {
     font-size: 0.9rem;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 }
 
-main li {
-    list-style-type: none;
+ul > ul {
+  margin-left: -16px;
 }
 
 .banner {
