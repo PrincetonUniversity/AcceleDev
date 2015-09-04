@@ -26,9 +26,15 @@ TODO list:
 - ^ TODO: update navbar to include news page, production page links
 - TODO: add some content images to the pages (should probably wait to
         see which images Joe uses for banners first)
-- TODO: banner carousel
-- TODO: carousel hex indicator
-- TODO: whatever design updates Joe and Charlie decide on
+- TODO: add banner carousel to Home Page
+- TODO: add carousel hex indicator Home page
+- TODO: propogate carousel to remaining pages
+- TODO: make the following design changes on Home page:
+        - change header background color and add chemical symbols
+        - change Welcome to AcceleDev pictures
+        - move red bar from top of banner to top of page
+        - stack banner and banner caption, remove transparncy
+- TODO: propagate design changes to all pages
 
 
 # Home Page ###################################################################

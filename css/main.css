@@ -16,12 +16,14 @@ a {
     text-decoration: underline;
 }
 
-header, main {
+main {
     background-color: #ebebeb;
 }
 
 header {
+    background-color: #3f020a;
     border-bottom: #ff0000 solid 7px;
+    color: #ffffff;
 }
 
 nav {
@@ -77,6 +79,13 @@ footer {
     color: #ffffff;
     font-size: 0.8rem;
     padding: 24px 0 20px 0;
+}
+
+@media (max-width: 991px) {
+    header {
+        background-color: #ebebeb;
+        color:#800112;
+    }
 }
 
 @media (max-width: 767px) {
