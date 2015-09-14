@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AcceleDev - Home</title>
+
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link href='css/bootstrap.min.css' rel='stylesheet'>
+<link href='css/main_old.css' rel='stylesheet'>
+<link href='css/home.css' rel='stylesheet'>
+<link rel='stylesheet' 
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,
+    300italic,400italic,600italic'>
+
+</head>
+
+
+<body>
+<header>
+  <div class='container'>
+    <div class='row'>
+      <div class='logo-box hidden-sm hidden-xs'>
+        <img id='logo-words' src="images/navbar/Welcome.png">
+        <img id='logo-hex' src="images/navbar/Hexbar.png">
+      </div>
+
+      <div class='mobile-logo visible-sm visible-xs'>
+        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
+          <img data-toggle='collapse'
+               data-target='#mobile-menu'
+               aria-expanded='false'
+               aria-controls='mobile-menu'
+               href='#mobile-menu'
+               id='mobile-hex' src='images/navbar/hex.png'>
+      </div>
+
+      <div class='col-lg-offset-4
+                  col-md-8 col-md-offset-3 
+                  col-sm-12'>
+        <nav class='main-nav'>
+          <ul class='collapse hidden-lg hidden-md' id='mobile-menu'>
+              <li class='active'>Home</li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class='dropdown visible-xs' id='facilities'>
+                <div data-toggle='collapse'
+                     data-parent='#facilities'
+                     href='#facilities-dropdown'
+                     aria-expanded='false'
+                     aria-controls='facilities-dropdown'>
+                  <a href='rnd_usa.html'>Facilities</a>
+                </div>
+                <ul class="collapse" id="facilities-dropdown">
+                  <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                  <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                  <li><a href="production.html">Production Facilities</a></li>
+                </ul>
+              </li>
+              <li class='dropdown hidden-xs' id='facilities'>
+                <a data-toggle='dropdown' href='rnd_usa.html'>
+                    Facilities</a>
+                  <ul class="dropdown-menu" id="facilities-dropdown">
+                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                    <li>
+                      <a href="production.html">Production Facilities</a>
+                    </li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          
+
+          <div class='hidden-sm hidden-xs'>
+            <ul>
+              <li class='active'>Home</li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li class='dropdown' id='facilities'>
+                <a data-toggle='dropdown' href='rnd_usa.html'>
+                    Facilities</a>
+                  <ul class="dropdown-menu" id="facilities-dropdown">
+                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
+                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
+                    <li>
+                      <a href="production.html">Production Facilities</a>
+                    </li>
+                  </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    </div>
+  </div>
+
+  <div class='banner hidden-sm hidden-xs'>
+    <div class='banner-caption'>
+      <div class='container'>
+        <div class='row'>
+          <p>
+          We are a unique chemical company specializing in the 
+          design, development, and production of multistep 
+          synthetic pathways to unique raw materials, 
+          intermediates, and active ingredients at any scale, mg to MT.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<main>
+<div class='mobile-banner visible-sm visible-xs'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We are a unique chemical company specializing in the 
+        design, development, and production of multistep 
+        synthetic pathways to unique raw materials, 
+        intermediates, and active ingredients at any scale, mg to MT.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='odd'>
+  <div class='container'>
+    <div class='row'>
+      <h2 class='hidden-sm hidden-xs'>What we offer</h2>
+      <h2 class='mobile-title visible-sm visible-xs'>What we offer</h2>
+
+      <div class='col-xs-10 col-xs-offset-1
+        col-md-4 col-md-offset-0'>
+        <div class='offer'>
+          <a href='services.html'>
+            <img class='icon'
+                 src='images/icons/ProcessDesign.png' 
+                 alt='Design'>
+          </a>
+          <h3>Innovative Process Design</h3>
+        </div>
+      </div>
+
+      <div class='col-xs-10 col-xs-offset-1 
+        col-md-4 col-md-offset-0'>
+        <div class='offer'>
+          <a href='services.html'>
+            <img class='icon' 
+            src='images/icons/ProcessDevelopment.png' 
+            alt='Development'>
+          </a>
+          <h3>Process Development</h3>
+        </div>
+      </div>
+
+      <div class='col-xs-10 col-xs-offset-1
+        col-md-4 col-md-offset-0'>
+        <div class='offer'>
+          <a href='services.html'>
+            <img class='icon' 
+            src='images/icons/PilotCommercialProd.png' 
+            alt='Production'>
+          </a>
+          <h3>Pilot &amp; Commercial Production</h3>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <h2 class='hidden-sm hidden-xs'>Why we're unique</h2>
+      <h2 class='mobile-title visible-sm visible-xs'>Why we're unique</h2>
+
+      <div class='col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1'>
+        <div class='unique'>
+          <a href='about.html'>
+            <img id='map' src="images/icons/Map_New.png" alt='Map.png'>
+          </a>
+          <br>
+          <div class='unique-text'>
+            <h3>Native in the US &amp; China</h3>
+            <br>
+            <p>
+            We have over a decade of experience operating 
+            coordinated facilities in both China and the United
+            States, so you get international chemistry expertise 
+            and professional service at our low cost, and 
+            nothing gets lost in translation.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class='col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1'>
+        <div class='unique'>
+          <a href='about.html'>
+            <img id='every-step' src="images/icons/EveryStep.png" alt="Hex.png">
+          </a>
+          <br>
+          <div class='unique-text'>
+            <h3>Every Step</h3>
+            <br>
+            <p>
+            From preliminary R&amp;D to full-scale production and 
+            from milligram to metric ton, we have the knowledge 
+            and tools to step in at any point along the development 
+            pipeline and complete your project successfully.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class='col-md-4 col-md-offset-0 col-xs-10 col-xs-offset-1'>
+        <div class='unique'>
+          <a href='about.html'>
+            <img id='randd' src="images/icons/RD.png" alt='RD.png'>
+          </a>
+          <br>
+          <div class='unique-text'>
+            <h3>R&amp;D Expertise</h3>
+            <br>
+            <p>
+            Our chemists have years of experience in chemical synthesis 
+            and pharmaceutical development and production, giving them
+            the chemistry expertise required to develop and 
+            scale any multistep chemical process.
+            </p>
+            <!--
+            <p>
+            Our extensive "team chemistry knowledge" holds a broad 
+            range of chemistry training and experience from our 
+            roots in Western pharmaceutical R&amp;D, industrial 
+            pilot and commercial production, and academia. This 
+            broad range of knowledge gives us the skill and 
+            supported confidence to develop and scale any 
+            challenging multistep chemistry process.
+            </p>
+            -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</main>
+
+
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
+    </div>
+  </div>
+
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
+</script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+$font-stack: 'Open Sans', sans-serif;
+$maroon-text: #800112;
+$maroon-bg: #3f020a;
+$light-grey: #ebebeb;
+$redline: 8px solid #ff0000;
+
+html {
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  background-color: $light-grey;
+  color: $maroon-text;
+  font-family: $font-stack;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+header {
+  background-color: $maroon-bg;
+  border-top: $redline;
+}
+
+#logo-box {
+  height: 144px;
+  position: relative;
+  #logo-words {
+    position: absolute;
+    left: 0;
+    height: 44px;
+    margin-top: 37px;
+  }
+  #logo-hex {
+    position: absolute;
+    right: 0;
+    height: 144px;
+  }
+}
+
+nav {
+  margin-top: -60px;
+  font-size: 1.1rem;
+  font-weight: 400;
+  ul {
+    list-style: none;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      &:hover {
+        border-bottom: 3px solid #ffffff;
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+    li {
+      display: inline;
+      margin-right: 2.5rem;
+    }
+    .active {
+      border-bottom: 3px solid #ffffff;
+      color: #ffffff;
+    }
+  }
+}
+
+#banner {
+  background-color: #999999;
+  border-bottom: $redline;
+}
+
+#banner-caption {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 72px;
+  width: 100%;
+}

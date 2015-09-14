@@ -1,229 +1,60 @@
 html {
-    font-size: 16px;
-    margin: 0;
-}
+  font-size: 16px;
+  margin: 0; }
 
 body {
-    background-color: #3f020a;
-    color: #800112;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-}
-
-a {
-    color: #ff0000;
-    text-decoration: underline;
-}
-
-main {
-    background-color: #ebebeb;
-}
+  background-color: #ebebeb;
+  color: #800112;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem; }
 
 header {
-    background-color: #3f020a;
-    border-bottom: #ff0000 solid 7px;
-    color: #ffffff;
-}
+  background-color: #3f020a;
+  border-top: 8px solid #ff0000; }
+
+#logo-box {
+  height: 144px;
+  position: relative; }
+  #logo-box #logo-words {
+    position: absolute;
+    left: 0;
+    height: 44px;
+    margin-top: 37px; }
+  #logo-box #logo-hex {
+    position: absolute;
+    right: 0;
+    height: 144px; }
 
 nav {
-    margin: -38px auto 40px auto;
-    text-align: center;
-    width: 100%;
-}
+  margin-top: -60px;
+  font-size: 1.1rem;
+  font-weight: 400; }
+  nav ul {
+    list-style: none; }
+    nav ul a {
+      color: #ffffff;
+      text-decoration: none; }
+      nav ul a:hover {
+        border-bottom: 3px solid #ffffff;
+        color: #ffffff;
+        text-decoration: none; }
+    nav ul li {
+      display: inline;
+      margin-right: 2.5rem; }
+    nav ul .active {
+      border-bottom: 3px solid #ffffff;
+      color: #ffffff; }
 
-nav li {
-    display: inline;
-    margin-right: 2.5rem;
-}
+#banner {
+  background-color: #999999;
+  border-bottom: 8px solid #ff0000; }
 
-nav a {
-    color: #800112;
-    text-decoration: none;
-}
+#banner-caption {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 400;
+  height: 72px;
+  width: 100%; }
 
-nav a:hover {
-    border-bottom: 3px solid #ff0000;
-    color: #ff0000;
-    text-decoration: none;
-}
-
-.active {
-    border-bottom: 3px solid #800112;
-}
-
-#facilities-dropdown {
-    background-color: #ebebeb;
-    border: 0;
-    border-bottom: 7px solid #ff0000;
-    border-radius: 0;
-    margin: 0;
-    padding: 0;
-}
-
-#facilities-dropdown a, #facilities-dropdown a:visited {
-    border: 0;
-    color: #800112;
-    font-family: inherit;
-    font-size: 1rem;
-}
-
-#facilities-dropdown a:hover {
-    background-color: #ebebeb;
-    border-bottom: 0;
-    color: #ff0000;
-}
-
-footer {
-    border-top: #ff0000 solid 7px;
-    color: #ffffff;
-    font-size: 0.8rem;
-    padding: 24px 0 20px 0;
-}
-
-@media (max-width: 991px) {
-    header {
-        background-color: #ebebeb;
-        color:#800112;
-    }
-}
-
-@media (max-width: 767px) {
-    #mobile-menu {
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;
-    }
-
-    nav li {
-        display: block;
-        width=80%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-
-    nav a {
-        margin-bottom: 12px;
-    }
-
-    #facilities .active {
-        padding-bottom: 8px;
-    }
-
-    #facilities .active a:hover {
-        border: 0;
-    }
-
-    #facilities-dropdown {
-        border: 0;
-        padding-bottom: 0;
-    }
-
-    #facilities-dropdown li {
-        margin: 0 auto 0 auto;
-        border-top: 3px solid #ff0000;
-    }
-
-    #facilities-dropdown li:last-child {
-        border: 0;
-        border-bottom: 3px solid #ff0000;
-    }
-
-    footer {
-        text-align: center;
-    }
-}
-
-h1 {
-    font-size: 1.4rem;
-}
-
-h2 {
-    font-size: 2rem;
-    margin-bottom: 28px;
-}
-
-h3 {
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-main p {
-    font-size: 0.9rem;
-    padding-bottom: 24px;
-}
-
-ul > ul {
-  margin-left: -16px;
-}
-
-.banner {
-    background-position: top center;
-    background-size: cover;
-    border-top: #ff0000 solid 7px;
-    color: #ffffff;
-    font-size: 1.1rem;
-    font-weight: 300;
-    height: 412px;
-    position: relative;
-}
-
-.banner-caption {
-    background-color: rgba(0, 0, 0, .6);
-    bottom: 0;
-    padding: 15px 0 10px 0;
-    position: absolute;
-    width: 100%;
-}
-
-.mobile-banner {
-    background-color: #ffffff;
-    padding-top: 40px;
-    font-style: italic;
-}
-
-.mobile-banner p {
-    padding-bottom: 0;
-}
-
-.odd {
-    background-color: #ffffff;
-}
-
-.odd, .even {
-    padding: 20px 0 20px 0;
-}
-
-.logo-box {
-    height: 120px;
-    position: relative;
-    overflow: hidden;
-}
-
-#logo-words {
-    left: 0;
-    margin-top: 40px;
-    height: 40px;
-    position: absolute;
-}
-
-#logo-hex {
-    height: 40px;
-    margin-top: 60px;
-    position: absolute;
-    right: 0px;
-}
-
-.mobile-logo {
-    padding: 24px 0 28px 0;
-    text-align: center;
-}
-
-#welcome {
-    font-weight: 300;
-}
-
-#mobile-hex {
-    height: auto;
-    width: 32px;
-}
+/*# sourceMappingURL=main.css.map */
