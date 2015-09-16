@@ -131,4 +131,20 @@ footer {
     footer {
       text-align: center; } }
 
+.even {
+  background-color: #ebebeb; }
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 28px;
+  margin-top: 36px; }
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+main p {
+  font-size: 0.9rem;
+  padding-bottom: 24px; }
+
 /*# sourceMappingURL=main.css.map */
