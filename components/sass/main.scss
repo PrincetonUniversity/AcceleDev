@@ -4,6 +4,8 @@ $maroon-bg: #3f010b;
 $light-grey: #ebebeb;
 $caption-grey: #666666;
 $redline: 7px solid #ff0000;
+$tabletsize: 991px;
+$phonesize: 624px;
 
 html {
   font-size: 16px;
@@ -11,16 +13,24 @@ html {
 }
 
 body {
-  background-color: $light-grey;
+  background-color: #ffffff;
   color: $maroon-text;
   font-family: $font-stack;
   font-weight: 400;
   font-size: 1rem;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
 header {
   background-color: $maroon-bg;
   border-top: $redline;
+  @media (max-width: $tabletsize) {
+    background-color: $light-grey;
+    border-top: 0;
+  }
 }
 
 #logo-box {
@@ -39,54 +49,46 @@ header {
   }
 }
 
+#mobile-logo {
+    padding: 24px 0 28px 0;
+    text-align: center;
+}
+
+#welcome {
+    font-weight: 300;
+}
+
+#mobile-hex {
+    height: auto;
+    width: 42px;
+}
+
 nav {
   margin-top: -60px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
+  @media (max-width: $tabletsize) {
+    font-size: 1rem;
+    margin: -16px 0 16px 0;
+    text-align: center;
+  }
   ul {
     list-style: none;
     a {
       color: #ffffff;
       text-decoration: none;
       &:hover {
+        @extend a;
         border-bottom: 3px solid #ffffff;
-        color: #ffffff;
-        text-decoration: none;
       }
     }
     li {
       display: inline;
-      margin-right: 2.5rem;
+      margin-right: 2.3rem;
     }
     .active {
-      border-bottom: 3px solid #ffffff;
-      color: #ffffff;
+      @extend a:hover;
     }
-  }
-}
-
-#banner {
-  background-color: $caption-grey;
-  border-bottom: $redline;
-  color: #ffffff;
-  font-size: 1.2rem;
-  font-weight: 400;
-  .carousel-indicators {
-    margin-left: 0px;
-  }
-  #bannerCarousel {
-    height: 412px;
-    .wrapper {
-      overflow: hidden;
-    }
-    img {
-      height: 412px;
-      overflow: hidden;
-    }
-  }
-  #banner-caption {
-    padding: 12px 0 8px 0;
-    width: 100%;
   }
 }
 
@@ -109,3 +111,75 @@ nav {
   }
 }
 
+#mobile-menu {
+  a {
+    color: $maroon-text;
+    &:hover {
+      @extend a;
+      border-bottom: 3px solid $maroon-text;
+    }
+  }
+  li {
+    @media (max-width: $phonesize) {
+      display: block;
+      padding: 12px;
+    }
+  }
+  .active {
+    @extend a:hover;
+  }
+  #facilities-dropdown {
+    background-color: $light-grey;
+    color: $maroon-text;
+    a {
+      &:hover {
+        color: #ff0000;
+        border-color: #ff0000;
+      }
+    }
+  }
+}
+
+#banner {
+  background-color: $caption-grey;
+  border-bottom: $redline;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  @media (max-width: $tabletsize) {
+    border-bottom: 0;
+    border-top: $redline;
+    background-color: #ffffff;
+    color: $maroon-text;
+    font-size: 0.9rem;
+    font-style: italic;
+    padding-top: 16px;
+  }
+  .carousel-indicators {
+    margin-left: 0px;
+  }
+  #bannerCarousel {
+    height: 412px;
+    .wrapper {
+      overflow: hidden;
+    }
+    img {
+      height: 412px;
+    }
+  }
+  #banner-caption {
+    padding: 12px 0 8px 0;
+    width: 100%;
+  }
+}
+
+footer {
+  background-color: $maroon-bg;
+  border-top: $redline;
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 24px 0 20px 0;
+  @media (max-width: $phonesize) {
+    text-align: center;
+  }
+}

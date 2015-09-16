@@ -2,39 +2,22 @@
 #  AcceleDev - README.md  #
 ###### ###### ###### ######
 
-Things to ask Charlie about from keynotes doc:
-- Should news page be ascending or descending?
-- I changed a lot of your text because it sounded horrible. Is the new
-  text acceptable?
-  - Most importantly, I did not change the home page blurbs. You cannot
-    call yourself a "chemistry company" because it will not sound 'unique',
-    it will sound ungramatical. Additionally, the "Why we're unique" blurbs
-    are meant to be SHORT and CLEVER. It will look very bad to put the
-    long-winded, description-laden paragraphs you sent me. That's why
-    they link to the ABOUT PAGE for MORE INFORMATION!
-    (I put some of the things you wanted in the About page where they belong)
-  - Also, I chose to not delete some of the sections you eliminated
-    because I feel they add important information about the company's
-    capabilities and advantages.
-- A lot of the text you requested on the new Production Facilities page
-  is identical to the Nanjing R&D page. This should probably be changed.
+Things to ask Charlie about:
 
 ###### ###### ###### ###### ###### ######### ###### ###### ###### ###### ###### 
 
 TODO list:
-- ^ TODO: update navbar on Services, China, Contact pages
-- ^ TODO: update navbar to include news page, production page links
+- ^ TODO: make design changes to new template home page
+        - ^ change header background color and add chemical symbols
+        - ^ change Welcome to AcceleDev pictures
+        - ^ move red bar from top of banner to top of page
+        - ^ stack banner and banner caption, remove transparncy
+- ^ TODO: add carousel to Home page template
+- TODO: add carousel hex indicator to Home page template
+- TODO: change mobile Facilities dropdown in template to collapse, not toggle
+- TODO: migrate all old page content to new template
 - TODO: add some content images to the pages (should probably wait to
         see which images Joe uses for banners first)
-- TODO: add banner carousel to Home Page
-- TODO: add carousel hex indicator Home page
-- TODO: propogate carousel to remaining pages
-- TODO: make the following design changes on Home page:
-        - change header background color and add chemical symbols
-        - change Welcome to AcceleDev pictures
-        - move red bar from top of banner to top of page
-        - stack banner and banner caption, remove transparncy
-- TODO: propagate design changes to all pages
 
 
 # Home Page ###################################################################

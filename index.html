@@ -6,12 +6,8 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-  <link href="css/main.css" rel="stylesheet">
+  <link href='css/bootstrap.min.css' rel='stylesheet'>
+  <link href='css/main.css' rel='stylesheet'>
   <link rel='stylesheet' 
     href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,
     300italic,400italic,600italic'>
@@ -20,16 +16,44 @@
 <body>
 <header>
   <div class='container'> 
-    <div class='row'>
+    <div class='row hidden-sm hidden-xs'>
       <div id='logo-box'>
         <img id='logo-words' src='images/navbar/Welcome.png'>
         <img id='logo-hex' src='images/navbar/Hexbar.png'>
       </div>
 
-      <nav class='col-lg-offset-4
-                  col-md-8 col-md-offset-3
-                  col-sm-12'>
+      <nav class='col-lg-offset-4 col-md-9 col-md-offset-2'>
         <ul>
+          <li class='active'>Home</li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class='dropdown' id='facilities'>
+            <a data-toggle='dropdown'>Facilities</a>
+            <ul class='dropdown-menu' id='facilities-dropdown'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class='row visible-sm visible-xs'>
+      <div id='mobile-logo' class='visible-sm visible-xs'>
+        <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
+          <img data-toggle='collapse'
+               data-target='#mobile-menu'
+               aria-expanded='false'
+               aria-controls='mobile-menu'
+               href='#mobile-menu'
+               id='mobile-hex' src='images/navbar/hex.png'>
+      </div>
+
+      <nav class='col-xs-12'>
+        <ul id='mobile-menu' class='collapse'>
           <li class='active'>Home</li>
           <li><a href="about.html">About</a></li>
           <li><a href="news.html">News</a></li>
@@ -50,7 +74,8 @@
 </header>
 
 <div id='banner'>
-  <div id='bannerCarousel' class='carousel slide' data-ride='carousel'>
+  <div id='bannerCarousel' class='carousel slide hidden-sm hidden-xs' 
+       data-ride='carousel'>
     <ol class='carousel-indicators'>
       <li data-target='#bannerCarousel' data-slide-to='0' class='active'></li>
       <li data-target='#bannerCarousel' data-slide-to='1'></li>
@@ -89,12 +114,14 @@
   
   <div class='container'>
     <div id='banner-caption' class='row'>
-      <p>
-      We are a unique chemical company specializing in the 
-      design, development, and production of multistep 
-      synthetic pathways to unique raw materials, 
-      intermediates, and active ingredients at any scale, mg to MT.
-      </p>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We are a unique chemical company specializing in the 
+        design, development, and production of multistep 
+        synthetic pathways to unique raw materials, 
+        intermediates, and active ingredients at any scale, mg to MT.
+        </p>
+      </div>
     </div>
   </div>
 </div>
@@ -103,10 +130,18 @@
 
 </main>
 
+<footer>
+  <div class='container'>
+    <div class='row'>
+      <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
+    </div>
+  </div>
+</footer>
+
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'>
 </script>
 <!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src='js/bootstrap.min.js'></script>
 
 </body>
 </html>
