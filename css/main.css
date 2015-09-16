@@ -10,8 +10,8 @@ body {
   font-size: 1rem; }
 
 header {
-  background-color: #3f020a;
-  border-top: 8px solid #ff0000; }
+  background-color: #3f010b;
+  border-top: 7px solid #ff0000; }
 
 #logo-box {
   height: 144px;
@@ -47,14 +47,37 @@ nav {
       color: #ffffff; }
 
 #banner {
-  background-color: #999999;
-  border-bottom: 8px solid #ff0000; }
-
-#banner-caption {
+  background-color: #666666;
+  border-bottom: 7px solid #ff0000;
   color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 400;
-  height: 72px;
-  width: 100%; }
+  font-size: 1.2rem;
+  font-weight: 400; }
+  #banner .carousel-indicators {
+    margin-left: 0px; }
+  #banner #bannerCarousel {
+    height: 412px; }
+    #banner #bannerCarousel .wrapper {
+      overflow: hidden; }
+    #banner #bannerCarousel img {
+      height: 412px;
+      overflow: hidden; }
+  #banner #banner-caption {
+    padding: 12px 0 8px 0;
+    width: 100%; }
+
+#facilities-dropdown {
+  background-color: #3f010b;
+  border-bottom: 7px solid #ff0000;
+  border-radius: 0; }
+  #facilities-dropdown li {
+    margin: 0; }
+  #facilities-dropdown a {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    margin: 8px 0 8px 0; }
+    #facilities-dropdown a:hover {
+      background-color: #ebebeb;
+      color: #800112; }
 
 /*# sourceMappingURL=main.css.map */

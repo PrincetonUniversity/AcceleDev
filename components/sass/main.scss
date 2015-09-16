@@ -1,8 +1,9 @@
 $font-stack: 'Open Sans', sans-serif;
 $maroon-text: #800112;
-$maroon-bg: #3f020a;
+$maroon-bg: #3f010b;
 $light-grey: #ebebeb;
-$redline: 8px solid #ff0000;
+$caption-grey: #666666;
+$redline: 7px solid #ff0000;
 
 html {
   font-size: 16px;
@@ -65,14 +66,46 @@ nav {
 }
 
 #banner {
-  background-color: #999999;
+  background-color: $caption-grey;
   border-bottom: $redline;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  .carousel-indicators {
+    margin-left: 0px;
+  }
+  #bannerCarousel {
+    height: 412px;
+    .wrapper {
+      overflow: hidden;
+    }
+    img {
+      height: 412px;
+      overflow: hidden;
+    }
+  }
+  #banner-caption {
+    padding: 12px 0 8px 0;
+    width: 100%;
+  }
 }
 
-#banner-caption {
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 400;
-  height: 72px;
-  width: 100%;
+#facilities-dropdown {
+  background-color: $maroon-bg;
+  border-bottom: 7px solid #ff0000;
+  border-radius: 0;
+  li {
+    margin: 0;
+  }
+  a {
+    color: #ffffff;
+    font-family: $font-stack;
+    font-size: 1rem;
+    margin: 8px 0 8px 0;
+    &:hover {
+      background-color: #ebebeb;
+      color: $maroon-text;
+    }
+  }
 }
+
