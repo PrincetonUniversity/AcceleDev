@@ -6446,21 +6446,29 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
+  width: 24px;
+  height: 24px;
+  margin: 0px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
-  border-radius: 10px;
+  background: url('../images/new_images/NewSprite.png');
+  background-size: 48px 48px;
+  /* For small sprites:
+   *   width: 12px;
+   *   height: 12px;
+   *   background-size: 24px 24px;
+   */
 }
 .carousel-indicators .active {
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
   margin: 0;
-  background-color: #fff;
+  background-position: 0px -168px;
+  /* For small sprites:
+   *   width: 12px;
+   *   height: 12px;
+   *   background-position: 12px -168px;
+   */
 }
 .carousel-caption {
   position: absolute;

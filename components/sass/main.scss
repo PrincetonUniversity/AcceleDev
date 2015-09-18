@@ -1,11 +1,21 @@
+// Fonts + Colors 
 $font-stack: 'Open Sans', sans-serif;
 $maroon-text: #800112;
 $maroon-bg: #3f010b;
 $light-grey: #ebebeb;
 $caption-grey: #666666;
 $redline: 7px solid #ff0000;
-$tabletsize: 991px;
-$phonesize: 624px;
+
+// Breakpoints
+$base_font_size: 16px;
+$tabletsize: 991px; // OR: 61.938rem w/ 16px base
+$phonesize: 624px; // OR: 39.000rem w/ 16px base
+
+/*****************************************************************************
+ 
+ STYLES
+
+ *****************************************************************************/
 
 html, body {
   width: 100%;
@@ -13,7 +23,7 @@ html, body {
 }
 
 html {
-  font-size: 16px;
+  font-size: $base_font_size;
   margin: 0;
 }
 
@@ -146,6 +156,7 @@ nav {
 }
 
 #banner {
+  margin: 0 auto;
   background-color: $caption-grey;
   border-bottom: $redline;
   color: #ffffff;
@@ -161,7 +172,7 @@ nav {
     padding-top: 16px;
   }
   .carousel-indicators {
-    margin-left: 0px;
+    // margin-left: 0px;
   }
   #bannerCarousel {
     height: 412px;
@@ -208,3 +219,4 @@ main p {
   font-size: 0.9rem;
   padding-bottom: 24px;
 }
+
