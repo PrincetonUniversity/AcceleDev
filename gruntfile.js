@@ -1,4 +1,8 @@
+'use strict';
+
 module.exports = function(grunt) {
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         sass: {
@@ -8,7 +12,13 @@ module.exports = function(grunt) {
                 }
             }
         },
+        watch: {
+          files: ['components/**/*.scss', '*.html'],
+          tasks: ['sass'],
+          options: {
+            spawn: false
+          },
+        }
     });
-    grunt.loadNpmTasks('grunt-contrib-sass');
-    grunt.registerTask('default',['sass']);
-}
+    grunt.registerTask('default',['watch']);
+  };
