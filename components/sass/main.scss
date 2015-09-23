@@ -1,15 +1,4 @@
-// Fonts + Colors 
-$font-stack: 'Open Sans', sans-serif;
-$maroon-text: #800112;
-$maroon-bg: #3f010b;
-$light-grey: #ebebeb;
-$caption-grey: #666666;
-$redline: 7px solid #ff0000;
-
-// Breakpoints
-$base_font_size: 16px;
-$tabletsize: 991px; // OR: 61.938rem w/ 16px base
-$phonesize: 624px; // OR: 39.000rem w/ 16px base
+@import 'variables.scss';
 
 /*****************************************************************************
  
@@ -40,12 +29,13 @@ h1 {
 }
 
 header {
-  background-color: $maroon-bg;
-  border-top: $redline;
   @media (max-width: $tabletsize) {
     background-color: $light-grey;
     border-top: 0;
   }
+
+  background-color: $maroon-bg;
+  border-top: $redline;
 }
 
 #logo-box {
