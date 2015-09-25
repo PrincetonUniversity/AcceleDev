@@ -61,9 +61,23 @@
           <li><a href="about.html">About</a></li>
           <li><a href="news.html">News</a></li>
           <li><a href="services.html">Services</a></li>
-          <li class='dropdown' id='facilities'>
+          <li class='visible-xs'>
+            <div data-toggle='collapse'
+                 data-target='#phone-facilities-dropdown'
+                 aria-expanded='false'
+                 aria-controls='phone-facilities-dropdown'
+                 href='#phone-facilities-dropdown'>
+              <a>Facilities</a>
+            </div>
+            <ul id='phone-facilities-dropdown' class='collapse'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li class='dropdown hidden-xs' id='tab-facilities'>
             <a data-toggle='dropdown'>Facilities</a>
-            <ul class='dropdown-menu' id='facilities-dropdown'>
+            <ul class='dropdown-menu' id='tab-facilities-dropdown'>
               <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
               <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
               <li><a href='production.html'>Production Facilities</a></li>
@@ -86,14 +100,10 @@
 
     <div class='carousel-inner' role='listbox'>
       <div class='item active'>
-        <div class='wrapper'>
-          <img src='images/banners/placeholder1.png' alt='image1'>
-        </div>
+        <div id='banner1' class='banner-img'> </div>
       </div>
       <div class='item'>
-        <div class='wrapper'>
-          <img src='images/banners/placeholder2.png' alt='image2'>
-        </div>
+        <div id='banner2' class='banner-img'> </div>
       </div>
     </div>
 
@@ -263,6 +273,5 @@
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'>
 </script>
 <script src='js/bootstrap.min.js'></script>
-
 </body>
 </html>

@@ -1,28 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>AcceleDev - About Us</title>
+  <title>AcceleDev - Home</title>
 
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href='css/bootstrap.css' rel='stylesheet'>
-<link href='css/main.css' rel='stylesheet'>
-<link href='css/about.css' rel='stylesheet'>
-<link rel='stylesheet' 
-    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
 
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/main.css' rel='stylesheet'>
+  <link rel='stylesheet' 
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,
+    300italic,400italic,600italic'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,300
+    italic,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
-
 
 <body>
 <header>
-  <div class='container'>
-    <div class='row'>
-      <div class='logo-box hidden-sm hidden-xs'>
-        <img id='logo-words' src="images/navbar/Words_and_Bar.png">
-        <img id='logo-hex' src="images/navbar/Bar_and_Hexes.png">
+  <div class='container'> 
+    <div class='row hidden-sm hidden-xs'>
+      <div id='logo-box'>
+        <img id='logo-words' src='images/navbar/Welcome.png'>
+        <img id='logo-hex' src='images/navbar/Hexbar.png'>
       </div>
 
-      <div class='mobile-logo visible-sm visible-xs'>
+      <nav class='col-lg-offset-4 col-md-9 col-md-offset-2'>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class='active'>About</li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class='dropdown' id='facilities'>
+            <a data-toggle='dropdown'>Facilities</a>
+            <ul class='dropdown-menu' id='facilities-dropdown'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class='row visible-sm visible-xs'>
+      <div id='mobile-logo' class='visible-sm visible-xs'>
         <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
           <img data-toggle='collapse'
                data-target='#mobile-menu'
@@ -32,93 +54,78 @@
                id='mobile-hex' src='images/navbar/hex.png'>
       </div>
 
-      <div class='col-lg-offset-4
-                  col-md-8 col-md-offset-3 
-                  col-sm-12'>
-        <div class='visible-sm visible-xs' style='height:16px;'></div>
-        <nav class='main-nav'>
-          <ul class='collapse hidden-lg hidden-md' id='mobile-menu'>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="news.html">News</a></li>
-              <li class='active'>About</li>
-              <li><a href="services.html">Services</a></li>
-              <li class='dropdown visible-xs' id='facilities'>
-                <div data-toggle='collapse'
-                     data-parent='#facilities'
-                     href='#facilities-dropdown'
-                     aria-expanded='false'
-                     aria-controls='facilities-dropdown'>
-                  <a href='rnd_usa.html'>Facilities</a>
-                </div>
-                <ul class="collapse" id="facilities-dropdown">
-                  <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                  <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                  <li><a href="production.html">Production Facilities</a></li>
-                </ul>
-              </li>
-              <li class='dropdown hidden-xs' id='facilities'>
-                <a data-toggle='dropdown' href='rnd_usa.html'>
-                    Facilities</a>
-                  <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                    <li>
-                      <a href="production.html">Production Facilities</a>
-                    </li>
-                  </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-          
-
-          <div class='hidden-sm hidden-xs'>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li class='active'>About</li>
-              <li><a href="news.html">News</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li class='dropdown' id='facilities'>
-                <a data-toggle='dropdown' href='rnd_usa.html'>
-                    Facilities</a>
-                  <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                    <li>
-                      <a href="production.html">Production Facilities</a>
-                    </li>
-                  </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
+      <nav class='col-xs-12'>
+        <ul id='mobile-menu' class='collapse'>
+          <li><a href="index.html">Home</a></li>
+          <li class='active'>About</li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li class='visible-xs'>
+            <div data-toggle='collapse'
+                 data-target='#phone-facilities-dropdown'
+                 aria-expanded='false'
+                 aria-controls='phone-facilities-dropdown'
+                 href='#phone-facilities-dropdown'>
+              <a>Facilities</a>
+            </div>
+            <ul id='phone-facilities-dropdown' class='collapse'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
             </ul>
-          </div>
-        </nav>
-      </div>
-
-    </div>
-  </div>
-
-  <div class='banner hidden-sm hidden-xs'>
-    <div class='banner-caption'>
-      <div class='container'>
-        <div class='row'>
-          <p>
-          We are a unique chemical company specializing in the 
-          design, development, and production of multistep 
-          synthetic pathways to unique raw materials, 
-          intermediates, and active ingredients at any scale, mg to MT.
-          </p>
-        </div>
-
-      </div>
+          </li>
+          <li class='dropdown hidden-xs' id='tab-facilities'>
+            <a data-toggle='dropdown'>Facilities</a>
+            <ul class='dropdown-menu' id='tab-facilities-dropdown'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </header>
 
+<div id='banner'>
+  <div id='bannerCarousel' class='carousel slide hidden-sm hidden-xs' 
+       data-ride='carousel'>
+    <ol class='carousel-indicators'>
+      <li data-target='#bannerCarousel' data-slide-to='0' class='active bootstrap'></li>
+      <li data-target='#bannerCarousel' data-slide-to='1' class="bootstrap"></li>
+    </ol>
 
-<main>
-<div class='mobile-banner visible-sm visible-xs'>
+    <div class='carousel-inner' role='listbox'>
+      <div class='item active'>
+        <div id='banner1' class='banner-img'> </div>
+      </div>
+      <div class='item'>
+        <div id='banner2' class='banner-img'> </div>
+      </div>
+    </div>
+
+    <a class='left carousel-control'
+       href='#bannerCarousel' 
+       role='button'
+       data-slide='prev'>
+      <span class='glyphicon glyphicon-chevron-left' aria-hidden='true'>
+      </span>
+      <span class='sr-only'>Previous</span>
+    </a>
+    <a class='right carousel-control'
+       href='#bannerCarousel' 
+       role='button'
+       data-slide='next'>
+      <span class='glyphicon glyphicon-chevron-right' aria-hidden='true'>
+      </span>
+      <span class='sr-only'>Next</span>
+    </a>
+  </div>
+  
   <div class='container'>
-    <div class='row'>
+    <div id='banner-caption' class='row'>
       <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
         <p>
         We are a unique chemical company specializing in the 
@@ -131,42 +138,41 @@
   </div>
 </div>
 
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>History</h2>
+<main>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>History</h2>
 
-        <p>
-        AcceleDev was founded in April 2003 by Charlie Lewis, a 
-        former research and development chemist at Bristol-Myers 
-        Squibb, and the Sigma-Aldrich Corporation. Since that time,
-        Acceledev has built-up and further strengthened its 
-        comprehensive set of R&D, production and supply chain 
-        assets, located in both China and USA. This build-up 
-        includes both significant investment and key 
-        partnerships, which greatly strengthened the overall 
-        operations and broadened our capabilities. Some of these 
-        include AcceleDev R&D Co. Ltd in 2007, Seagate-AcceleDev 
-        production in 2010, and most recently our new USA 
-        research facility in 2011. In addition to these, we also 
-        continue to maintain our long term strategic integrated 
-        partnerships which give our customers an even greater 
-        degree of supply flexibility. Each of our sites has a unique 
-        set of chemistry and operations capabilities. These combine 
-        to give a comprehensive range of choices for our customers.  
-        Our expertise has continued to specialize in the design, 
-        development and production of multistep synthetic pathways 
-        to unique and diverse wide range of chemical molecules. 
-        Our multinational local US and China teams allow us to 
-        maximize all the advantages which can be gained from both 
-        regions. Our mission is simple: Wok cost efficiently, 
-        and provide high quality product on time, while also 
-        holding in highest regard our customer's need for 
-        responsive and regular communication.
-        </p>
+      <p>
+      AcceleDev was founded in April 2003 by Charlie Lewis, a 
+      former research and development chemist at Bristol-Myers 
+      Squibb, and the Sigma-Aldrich Corporation. Since that time,
+      Acceledev has built-up and further strengthened its 
+      comprehensive set of R&D, production and supply chain 
+      assets, located in both China and USA. This build-up 
+      includes both significant investment and key 
+      partnerships, which greatly strengthened the overall 
+      operations and broadened our capabilities. Some of these 
+      include AcceleDev R&D Co. Ltd in 2007, Seagate-AcceleDev 
+      production in 2010, and most recently our new USA 
+      research facility in 2011. In addition to these, we also 
+      continue to maintain our long term strategic integrated 
+      partnerships which give our customers an even greater 
+      degree of supply flexibility. Each of our sites has a unique 
+      set of chemistry and operations capabilities. These combine 
+      to give a comprehensive range of choices for our customers.  
+      Our expertise has continued to specialize in the design, 
+      development and production of multistep synthetic pathways 
+      to unique and diverse wide range of chemical molecules. 
+      Our multinational local US and China teams allow us to 
+      maximize all the advantages which can be gained from both 
+      regions. Our mission is simple: Wok cost efficiently, 
+      and provide high quality product on time, while also 
+      holding in highest regard our customer's need for 
+      responsive and regular communication.
+      </p>
 
-      </div>
     </div>
   </div>
 </div>
@@ -201,23 +207,21 @@
 </div>
 
 
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>Who we are</h2>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>Who we are</h2>
 
-        <p>
-        AcceleDev's chemists are PhD and BS scientists with decades of
-        cumulative experience in the pharmaceutical industry, based both
-        in the United States and China. Our sites are well equipped to 
-        support any new development program, and we also have 
-        well-positioned affiliations and partnerships that further 
-        expand our analytical and manufacturing capabilities, without 
-        increasing our low cost base.
-        </p>
+      <p>
+      AcceleDev's chemists are PhD and BS scientists with decades of
+      cumulative experience in the pharmaceutical industry, based both
+      in the United States and China. Our sites are well equipped to 
+      support any new development program, and we also have 
+      well-positioned affiliations and partnerships that further 
+      expand our analytical and manufacturing capabilities, without 
+      increasing our low cost base.
+      </p>
 
-      </div>
     </div>
   </div>
 </div>
@@ -248,78 +252,74 @@
 </div>
 
 
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>Why we're unique</h2>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>Why we're unique</h2>
 
-        <h3>Native in the US. Native in China.</h3>
+      <h3>Native in the US. Native in China.</h3>
 
-        <p>
-        In addition to our expertise in chemistry R&amp;D and production
-        generally, we also have significant experience working closely
-        with many different clients from the American
-        and European pharmaceutical and biotechnology industries. Our
-        scientists in the United States and China have over a decade of
-        experience working together to complete these projects to
-        specification and on time, so that no time is lost translating our
-        clients' specialized needs from our Western lab to our production
-        facilities in China. We were also among the first American
-        companies to have its own analytical facilities in China, and no
-        one has a more accurate and reliable supply chain for high-purity
-        raw materials.
-        </p>
+      <p>
+      In addition to our expertise in chemistry R&amp;D and production
+      generally, we also have significant experience working closely
+      with many different clients from the American
+      and European pharmaceutical and biotechnology industries. Our
+      scientists in the United States and China have over a decade of
+      experience working together to complete these projects to
+      specification and on time, so that no time is lost translating our
+      clients' specialized needs from our Western lab to our production
+      facilities in China. We were also among the first American
+      companies to have its own analytical facilities in China, and no
+      one has a more accurate and reliable supply chain for high-purity
+      raw materials.
+      </p>
 
-        <h3>Every Step.</h3>
+      <h3>Every Step.</h3>
 
-        <p>
-        AcceleDev's scientists and facilities support the full chemical 
-        production pipeline, from process design and development to
-        pilot and full-scale commercial production. We can help clients
-        at any step, to devise or refine a synthesis, to scale up an
-        existing process, and to manufacture and ship a commercial chemical
-        product, helping you avoid the extra risk and time loss 
-        that come from multiple project transfers. With AcceleDev, 
-        you don't need any other supplier.
-        </p>
+      <p>
+      AcceleDev's scientists and facilities support the full chemical 
+      production pipeline, from process design and development to
+      pilot and full-scale commercial production. We can help clients
+      at any step, to devise or refine a synthesis, to scale up an
+      existing process, and to manufacture and ship a commercial chemical
+      product, helping you avoid the extra risk and time loss 
+      that come from multiple project transfers. With AcceleDev, 
+      you don't need any other supplier.
+      </p>
 
-        <h3>R&amp;D Expertise.</h3>
+      <h3>R&amp;D Expertise.</h3>
 
-        <p>
-        Many of our scientists come from major pharmaceutical companies,
-        and are well-aware of the needs and standards required to work 
-        with clients in that industry. Our team holds a broad range of 
-        chemistry training and experience from our roots in western 
-        pharmaceutical R&amp;D, industrial pilot and commercial 
-        production, and academia. This broad range of knowledge gives 
-        us the skill and supported confidence to develop and scale 
-        any challenging multistep chemistry process. Our R&amp;D 
-        experience even shows in our manufacturing capabilities, 
-        because we monitor all our processes
-        to ensure that they always scale properly.
-        </p>
+      <p>
+      Many of our scientists come from major pharmaceutical companies,
+      and are well-aware of the needs and standards required to work 
+      with clients in that industry. Our team holds a broad range of 
+      chemistry training and experience from our roots in western 
+      pharmaceutical R&amp;D, industrial pilot and commercial 
+      production, and academia. This broad range of knowledge gives 
+      us the skill and supported confidence to develop and scale 
+      any challenging multistep chemistry process. Our R&amp;D 
+      experience even shows in our manufacturing capabilities, 
+      because we monitor all our processes
+      to ensure that they always scale properly.
+      </p>
 
-        <h3>Rapid, Constant Communication.</h3>
+      <h3>Rapid, Constant Communication.</h3>
 
-        <p>
-        AcceleDev prides itself on transparency and responsiveness from
-        the moment we recieve a request until the project is sucessfully
-        finished. All requests for a quote are given serious 
-        consideration and answered quickly, typically within 1-3 days' 
-        time. Once we begin working together, we are always available 
-        to discuss refinement of an active project to meet 
-        new targets. We work openly and are highly committed to regular 
-        and professional communication.
-        </p>
+      <p>
+      AcceleDev prides itself on transparency and responsiveness from
+      the moment we recieve a request until the project is sucessfully
+      finished. All requests for a quote are given serious 
+      consideration and answered quickly, typically within 1-3 days' 
+      time. Once we begin working together, we are always available 
+      to discuss refinement of an active project to meet 
+      new targets. We work openly and are highly committed to regular 
+      and professional communication.
+      </p>
 
-      </div>
     </div>
   </div>
 </div>
-
 </main>
-
 
 <footer>
   <div class='container'>
@@ -330,10 +330,8 @@
 
 </footer>
 
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
 </script>
 <script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>

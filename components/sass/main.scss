@@ -99,7 +99,7 @@ nav {
 
 #facilities-dropdown {
   background-color: $maroon-bg;
-  border-bottom: 7px solid #ff0000;
+  border-bottom: $redline;
   border-radius: 0;
   li {
     margin: 0;
@@ -110,13 +110,15 @@ nav {
     font-size: 1rem;
     margin: 8px 0 8px 0;
     &:hover {
-      background-color: #ebebeb;
+      background-color: $light-grey;
       color: $maroon-text;
+      border: 0px;
     }
   }
 }
 
 #mobile-menu {
+  font-size: 1.1rem;
   a {
     color: $maroon-text;
     &:hover {
@@ -124,8 +126,9 @@ nav {
       border-bottom: 3px solid $maroon-text;
     }
   }
-  li {
-    @media (max-width: $phonesize) {
+  @media (max-width: $phonesize) {
+    font-size: 1rem;
+    li {
       display: block;
       padding: 12px;
     }
@@ -133,13 +136,29 @@ nav {
   .active {
     @extend a:hover;
   }
-  #facilities-dropdown {
+  #phone-facilities-dropdown {
+    border: $redline;
+    border-width: 3px 0;
+    margin-top: 8px;
+    padding: 0;
+    li {
+      margin: 0;
+    }
+  }
+  #tab-facilities-dropdown {
     background-color: $light-grey;
-    color: $maroon-text;
+    border-bottom: $redline;
+    border-radius: 0;
+    li {
+        margin: 8px 0 8px 0;
+    }
     a {
+      border-bottom: 3px solid $light-grey;
       &:hover {
-        color: #ff0000;
+        @extend a;
+        background-color: $light-grey;
         border-color: #ff0000;
+        color: #ff0000;
       }
     }
   }
@@ -162,15 +181,26 @@ nav {
     padding-top: 16px;
   }
   .carousel-indicators {
-    // margin-left: 0px;
+    margin-left: 0px;
   }
   #bannerCarousel {
-    height: 412px;
-    .wrapper {
-      overflow: hidden;
-    }
-    img {
+    .banner-img {
       height: 412px;
+      background-position: top center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      @media (max-width: 1509px) {
+          height: 325px;
+      }
+      @media (max-width: 1199px) {
+          height: 270px;
+      }
+    }
+    #banner1 {
+      background-image: url(../images/banners/USA_Facilities_1.jpg);
+    }
+    #banner2 {
+      background-image: url(../images/banners/USA_Facilities_2.jpg);
     }
   }
   #banner-caption {
@@ -205,8 +235,15 @@ h3 {
     font-weight: 600;
 }
 
-main p {
-  font-size: 0.9rem;
-  padding-bottom: 24px;
+main {
+  p {
+    font-size: 0.9rem;
+    padding-bottom: 24px;
+  }
+  a {
+    color: #ff0000;
+    &:visited, &:hover {
+      color: #ff0000;
+    }
+  }
 }
-

@@ -4,13 +4,3 @@ h3 {
 main ul {
     padding-bottom: 24px;
 }
-.banner {
-    background-image: url(../images/banners/China_Labs_Photo_sm.png);
-}
-
-@media (max-width: 767px) {
-  #facilities-dropdown li {
-      margin: 0 auto 0 auto;
-      border-top: 0;
-  }
-}

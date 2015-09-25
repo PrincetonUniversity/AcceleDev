@@ -1,28 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 <head>
-<title>AcceleDev - News</title>
+  <title>AcceleDev - Home</title>
 
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link href='css/bootstrap.css' rel='stylesheet'>
-<link href='css/main.css' rel='stylesheet'>
-<link href='css/news.css' rel='stylesheet'>
-<link rel='stylesheet' 
-    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,300italic,400italic,600italic'>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
 
+  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href='css/main.css' rel='stylesheet'>
+  <link href='css/news.css' rel='stylesheet'>
+  <link rel='stylesheet' 
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,
+    300italic,400italic,600italic'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,300
+    italic,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
-
 
 <body>
 <header>
-  <div class='container'>
-    <div class='row'>
-      <div class='logo-box hidden-sm hidden-xs'>
-        <img id='logo-words' src="images/navbar/Words_and_Bar.png">
-        <img id='logo-hex' src="images/navbar/Bar_and_Hexes.png">
+  <div class='container'> 
+    <div class='row hidden-sm hidden-xs'>
+      <div id='logo-box'>
+        <img id='logo-words' src='images/navbar/Welcome.png'>
+        <img id='logo-hex' src='images/navbar/Hexbar.png'>
       </div>
 
-      <div class='mobile-logo visible-sm visible-xs'>
+      <nav class='col-lg-offset-4 col-md-9 col-md-offset-2'>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class='active'>News</li>
+          <li><a href="services.html">Services</a></li>
+          <li class='dropdown' id='facilities'>
+            <a data-toggle='dropdown'>Facilities</a>
+            <ul class='dropdown-menu' id='facilities-dropdown'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class='row visible-sm visible-xs'>
+      <div id='mobile-logo' class='visible-sm visible-xs'>
         <h1><span id='welcome'>Welcome to </span>AcceleDev.</h1>
           <img data-toggle='collapse'
                data-target='#mobile-menu'
@@ -32,271 +55,104 @@
                id='mobile-hex' src='images/navbar/hex.png'>
       </div>
 
-      <div class='col-lg-offset-4
-                  col-md-8 col-md-offset-3 
-                  col-sm-12'>
-        <div class='visible-sm visible-xs' style='height:16px;'></div>
-        <nav class='main-nav'>
-          <ul class='collapse hidden-lg hidden-md' id='mobile-menu'>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class='active'>News</li>
-              <li><a href="services.html">Services</a></li>
-              <li class='dropdown visible-xs' id='facilities'>
-                <div data-toggle='collapse'
-                     data-parent='#facilities'
-                     href='#facilities-dropdown'
-                     aria-expanded='false'
-                     aria-controls='facilities-dropdown'>
-                  <a href='rnd_usa.html'>Facilities</a>
-                </div>
-                <ul class="collapse" id="facilities-dropdown">
-                  <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                  <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                  <li><a href="production.html">Production Facilities</a></li>
-                </ul>
-              </li>
-              <li class='dropdown hidden-xs' id='facilities'>
-                <a data-toggle='dropdown' href='rnd_usa.html'>
-                    Facilities</a>
-                  <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                    <li>
-                      <a href="production.html">Production Facilities</a>
-                    </li>
-                  </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-          
-
-          <div class='hidden-sm hidden-xs'>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li class='active'>News</li>
-              <li><a href="services.html">Services</a></li>
-              <li class='dropdown' id='facilities'>
-                <a data-toggle='dropdown' href='rnd_usa.html'>
-                    Facilities</a>
-                  <ul class="dropdown-menu" id="facilities-dropdown">
-                    <li><a href="rnd_usa.html">USA R&D Facility</a></li>
-                    <li><a href="rnd_china.html">Nanjing R&D Facility</a></li>
-                    <li>
-                      <a href="production.html">Production Facilities</a>
-                    </li>
-                  </ul>
-              </li>
-              <li><a href="contact.html">Contact</a></li>
+      <nav class='col-xs-12'>
+        <ul id='mobile-menu' class='collapse'>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class='active'>News</li>
+          <li><a href="services.html">Services</a></li>
+          <li class='visible-xs'>
+            <div data-toggle='collapse'
+                 data-target='#phone-facilities-dropdown'
+                 aria-expanded='false'
+                 aria-controls='phone-facilities-dropdown'
+                 href='#phone-facilities-dropdown'>
+              <a>Facilities</a>
+            </div>
+            <ul id='phone-facilities-dropdown' class='collapse'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
             </ul>
-          </div>
-        </nav>
-      </div>
-
-    </div>
-  </div>
-
-  <div class='banner hidden-sm hidden-xs'>
-    <div class='banner-caption'>
-      <div class='container'>
-        <div class='row'>
-          <p>
-          We are a chemical company specializing in the design, development, and
-          production of multistep synthetic pathways to unique raw materials, 
-          intermediates, and active ingredients.
-          </p>
-        </div>
-
-      </div>
+          </li>
+          <li class='dropdown hidden-xs' id='tab-facilities'>
+            <a data-toggle='dropdown'>Facilities</a>
+            <ul class='dropdown-menu' id='tab-facilities-dropdown'>
+              <li><a href='rnd_usa.html'>USA R&D Facility</a></li>
+              <li><a href='rnd_china.html'>Nanjing R&D Facility</a></li>
+              <li><a href='production.html'>Production Facilities</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </div>
 </header>
 
+<div id='banner'>
+  <div id='bannerCarousel' class='carousel slide hidden-sm hidden-xs' 
+       data-ride='carousel'>
+    <ol class='carousel-indicators'>
+      <li data-target='#bannerCarousel' data-slide-to='0' class='active bootstrap'></li>
+      <li data-target='#bannerCarousel' data-slide-to='1' class="bootstrap"></li>
+    </ol>
+
+    <div class='carousel-inner' role='listbox'>
+      <div class='item active'>
+        <div id='banner1' class='banner-img'> </div>
+      </div>
+      <div class='item'>
+        <div id='banner2' class='banner-img'> </div>
+      </div>
+    </div>
+
+    <a class='left carousel-control'
+       href='#bannerCarousel' 
+       role='button'
+       data-slide='prev'>
+      <span class='glyphicon glyphicon-chevron-left' aria-hidden='true'>
+      </span>
+      <span class='sr-only'>Previous</span>
+    </a>
+    <a class='right carousel-control'
+       href='#bannerCarousel' 
+       role='button'
+       data-slide='next'>
+      <span class='glyphicon glyphicon-chevron-right' aria-hidden='true'>
+      </span>
+      <span class='sr-only'>Next</span>
+    </a>
+  </div>
+  
+  <div class='container'>
+    <div id='banner-caption' class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <p>
+        We are a unique chemical company specializing in the 
+        design, development, and production of multistep 
+        synthetic pathways to unique raw materials, 
+        intermediates, and active ingredients at any scale, mg to MT.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 
 <main>
-<div class='mobile-banner visible-sm visible-xs'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <p>
-        We are a chemical company specializing in the design, development, and
-        production of multistep synthetic pathways to unique raw materials, 
-        intermediates, and active ingredients.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>March 1 2003:</h2> 
-        <p>
-        AcceleDev formally established in New Jersey, USA.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='even'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>2003 - 2005:</h2> 
-        <p>
-        Establishment of key customer and supplier partnerships 
-        had huge impact on company growth.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>Dec 1, 2006:</h2> 
-        <p>
-        AcceleDev Lianyungang, a new 33,000m<sup>2</sup> China production 
-        site, completed construction and started operations.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='even'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>March 1, 2007:</h2> 
-        <p>
-        AcceleDev R&amp;D Co Ltd. was formally established as an 
-        expansion of our China R&amp;D capabilities.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>2007:</h2> 
-        <p>
-        Through its established partnerships, AcceleDev performed its 
-        first Pharmaceutical cGMP API FTE development 
-        program and also its first commercial API production 
-        campaign for a top 5 Innovator pharma company.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='even'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>May 15, 2009:</h2> 
-        <p>
-        AcceleDev R&amp;D Co Ltd opened its new state of the art 
-        Nanjing research and development facility. The site
-        officially started operations, specializing in the 
-        areas of process chemistry (research and optimization).
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>Nov 1, 2009:</h2> 
-        <p>
-        China based pilot and commercial scale chemistry 
-        production operations expanded in Jiangsu (Haimen City).
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='even'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>May 15, 2010:</h2>
-        <p>
-        The highly successful launch and expansion of the Haimen 
-        production site, allowed for the profitable sale of 
-        AcceleDev Lianyungang.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>May 1, 2011:</h2>
-        <p>
-        AcceleDev establishes Monmouth Junction, New Jersey, USA 
-        Laboratory in order to expand its support of 
-        Pharmaceutical medicinal chemistry and process 
-        innovation (design and optimization).
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='even'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>March 2012:</h2>
-        <p>
-        Seagate-AcceleDev Haimen receives audit and successful 
-        approval for making GMP-like pharmaceutical 
-        "Regulatory Starting Materials".
-         </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class='odd'>
-  <div class='container'>
-    <div class='row'>
-      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>May 15, 2013:</h2>
-        <p>
-        Received commercial approval and primary supplier status 
-        for key 22-step regulatory starting material
-        </p>
-
-      </div>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>May 6, 2015:</h2>
+      <p>
+      Formal award ceremony held by Johnson&amp;Johnson / Janssen, 
+      and AcceleDev is presented with Janssen's 
+      most prestigious annual award: "Research &amp; Development 
+      Excellence Award". AcceleDev also receives 2nd award for 
+      "Supplier Excellence", in relation to our continued 
+      commitment to Environment Health and Safety, and 
+      continuous organization improvement.
+      </p>
     </div>
   </div>
 </div>
@@ -315,34 +171,160 @@
         towards establishing such a valuable and accurate 
         tracking mechanism.
         </p>
-
       </div>
     </div>
   </div>
 </div>
 
-<div class='odd'>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>May 15, 2013:</h2>
+      <p>
+      Received commercial approval and primary supplier status 
+      for key 22-step regulatory starting material
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class='even'>
   <div class='container'>
     <div class='row'>
       <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
-        <h2>May 6, 2015:</h2>
+        <h2>March 2012:</h2>
         <p>
-        Formal award ceremony held by Johnson&amp;Johnson / Janssen, 
-        and AcceleDev is presented with Janssen's 
-        most prestigious annual award: "Research &amp; Development 
-        Excellence Award". AcceleDev also receives 2nd award for 
-        "Supplier Excellence", in relation to our continued 
-        commitment to Environment Health and Safety, and 
-        continuous organization improvement.
-        </p>
-
+        Seagate-AcceleDev Haimen receives audit and successful 
+        approval for making GMP-like pharmaceutical 
+        "Regulatory Starting Materials".
+         </p>
       </div>
     </div>
   </div>
 </div>
 
-</main>
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>May 1, 2011:</h2>
+      <p>
+      AcceleDev establishes Monmouth Junction, New Jersey, USA 
+      Laboratory in order to expand its support of 
+      Pharmaceutical medicinal chemistry and process 
+      innovation (design and optimization).
+      </p>
+    </div>
+  </div>
+</div>
 
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <h2>May 15, 2010:</h2>
+        <p>
+        The highly successful launch and expansion of the Haimen 
+        production site, allowed for the profitable sale of 
+        AcceleDev Lianyungang.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>Nov 1, 2009:</h2> 
+      <p>
+      China based pilot and commercial scale chemistry 
+      production operations expanded in Jiangsu (Haimen City).
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <h2>May 15, 2009:</h2> 
+        <p>
+        AcceleDev R&amp;D Co Ltd opened its new state of the art 
+        Nanjing research and development facility. The site
+        officially started operations, specializing in the 
+        areas of process chemistry (research and optimization).
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>2007:</h2> 
+      <p>
+      Through its established partnerships, AcceleDev performed its 
+      first Pharmaceutical cGMP API FTE development 
+      program and also its first commercial API production 
+      campaign for a top 5 Innovator pharma company.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <h2>March 1, 2007:</h2> 
+        <p>
+        AcceleDev R&amp;D Co Ltd. was formally established as an 
+        expansion of our China R&amp;D capabilities.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>Dec 1, 2006:</h2> 
+      <p>
+      AcceleDev Lianyungang, a new 33,000m<sup>2</sup> China production 
+      site, completed construction and started operations.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class='even'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+        <h2>2003 - 2005:</h2> 
+        <p>
+        Establishment of key customer and supplier partnerships 
+        had huge impact on company growth.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class='container'>
+  <div class='row'>
+    <div class='col-sm-12 col-sm-offset-0 col-xs-10 col-xs-offset-1'>
+      <h2>March 1 2003:</h2> 
+      <p>
+      AcceleDev formally established in New Jersey, USA.
+      </p>
+    </div>
+  </div>
+</div>
+</main>
 
 <footer>
   <div class='container'>
@@ -350,13 +332,10 @@
       <p>Copyright &copy; AcceleDev Chemical, LLC. 2015.</p>
     </div>
   </div>
-
 </footer>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js">
 </script>
 <script src="js/bootstrap.min.js"></script>
-
 </body>
 </html>

@@ -3,6 +3,7 @@
 ###### ###### ###### ######
 
 Things to ask Charlie about:
+- need pdfs for links on bottom of Services page
 
 ###### ###### ###### ###### ###### ######### ###### ###### ###### ###### ###### 
 
