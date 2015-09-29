@@ -1,5 +1,7 @@
 @import 'variables.scss';
-@import 'compass/css3/animation';
+@import 'compass/css3/transition';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/border-radius';
 
 /*****************************************************************************
  
@@ -27,6 +29,12 @@ body {
 
 h1 {
   font-size: 2rem;
+}
+
+@media (max-width: $tabletsize) {
+  .row #{headings(all)} {
+    text-align: center;
+  }
 }
 
 header {
@@ -83,6 +91,8 @@ nav {
     a {
       color: #ffffff;
       text-decoration: none;
+      @include transition-property(all);
+      @include transition-duration(0.5s);
       &:hover {
         @extend a;
         border-bottom: 3px solid #ffffff;
@@ -246,5 +256,48 @@ main {
     &:visited, &:hover {
       color: #ff0000;
     }
+  }
+}
+
+
+/*****************************************************************************
+ 
+COMPASS AESTHETIC STYLES
+
+ *****************************************************************************/
+
+#facilities-dropdown {
+  @include box-shadow(5px 5px 10px black);
+  @include border-radius();
+}
+
+@mixin callout-image() {
+  float: right;
+  margin: 1em;
+  @include single-box-shadow();
+  @include border-radius();
+  @media (max-width: $tabletsize) {
+    display: none;
+  }
+}
+
+.callout-image--small {
+  @include callout-image();
+  max-width: 250px;
+}
+
+.callout-image--medium {
+  @include callout-image();
+  max-width: 300px;
+}
+
+.callout-image--large {
+  @include callout-image();
+  max-width: 500px;
+}
+
+.mobile-hidden {
+  @media (max-width: $tabletsize) {
+    display: none;
   }
 }
