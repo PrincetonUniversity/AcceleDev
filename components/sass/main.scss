@@ -27,6 +27,10 @@ body {
   font-size: 1rem;
 }
 
+row {
+  display: table;
+}
+
 h1 {
   font-size: 2rem;
 }
@@ -273,9 +277,11 @@ COMPASS AESTHETIC STYLES
 
 @mixin callout-image() {
   float: right;
-  margin: 1em;
+  margin: 100px 1em 1em 1em;
+
   @include single-box-shadow();
   @include border-radius();
+
   @media (max-width: $tabletsize) {
     display: none;
   }
@@ -294,6 +300,10 @@ COMPASS AESTHETIC STYLES
 .callout-image--large {
   @include callout-image();
   max-width: 500px;
+}
+
+#rnd-usa-large-callout {
+  margin-top: 50px;
 }
 
 .mobile-hidden {
