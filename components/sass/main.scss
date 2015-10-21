@@ -35,6 +35,10 @@ h1 {
   font-size: 2rem;
 }
 
+p {
+  text-align: justify;
+}
+
 @media (max-width: $tabletsize) {
   .row #{headings(all)} {
     text-align: center;
@@ -217,6 +221,24 @@ nav {
     #banner2 {
       background-image: url(../images/banners/USA_Facilities_2.jpg);
     }
+    #banner3 {
+      background-image: url(../images/banners/China_Facilities_1.jpg);
+    }
+    #banner4 {
+      background-image: url(../images/banners/China_Facilities_2.jpg);
+    }
+    #banner5 {
+      background-image: url(../images/banners/Home_1.jpg);
+    }
+    #banner6 {
+      background-image: url(../images/banners/Home_2.jpg);
+    }
+    #banner7 {
+      background-image: url(../images/banners/Services_1.jpg);
+    }
+    #banner8 {
+      background-image: url(../images/banners/About_1.jpg);
+    }
   }
   #banner-caption {
     padding: 12px 0 8px 0;
@@ -225,11 +247,12 @@ nav {
 }
 
 footer {
+  margin-top: 10px;
+  padding: 24px 0 20px 0;
   background-color: $maroon-bg;
   border-top: $redline;
   color: #ffffff;
   font-size: 0.8rem;
-  padding: 24px 0 20px 0;
   @media (max-width: $phonesize) {
     text-align: center;
   }
@@ -275,9 +298,14 @@ COMPASS AESTHETIC STYLES
   @include border-radius();
 }
 
-@mixin callout-image() {
+.callout-block {
   float: right;
-  margin: 100px 1em 1em 1em;
+  position: relative;
+}
+
+@mixin callout-image() {
+  position: relative;
+  margin: 100px 3em 3em 3em;
 
   @include single-box-shadow();
   @include border-radius();
@@ -302,8 +330,59 @@ COMPASS AESTHETIC STYLES
   max-width: 500px;
 }
 
+@mixin callout-caption-base($bottom) {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: $bottom;
+  text-align: center;
+}
+
+.callout-caption {
+  @include callout-caption-base(0em);
+}
+
+.services-rnd-callout-caption {
+  @include callout-caption-base(2.5em);
+}
+
+.production-callout-caption {
+  @include callout-caption-base(2em);
+}
+
+#production-first-large-callout {
+  margin-top: -5.5em;
+}
+
+.china-rnd-callout-caption {
+  @include callout-caption-base(2.5em);
+}
+
+.about-callout-caption {
+  @include callout-caption-base(2.5em);
+  width: 60%;
+}
+
+.about-callout-image {
+  margin-left: 5.5em;
+}
+
+.production-callout-image {
+  margin-bottom: 3em;
+}
+
 #rnd-usa-large-callout {
   margin-top: 50px;
+}
+
+.sourcing-advantage {
+  padding: 0;
+  font-weight: bold;
+
+  a {
+    color: $maroon-text;
+    text-decoration: none;
+  }
 }
 
 .mobile-hidden {

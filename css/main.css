@@ -34,80 +34,85 @@ h1 {
   font-size: 2rem;
 }
 
+/* line 38, ../components/sass/main.scss */
+p {
+  text-align: justify;
+}
+
 @media (max-width: 991px) {
-  /* line 39, ../components/sass/main.scss */
+  /* line 43, ../components/sass/main.scss */
   .row h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 }
-/* line 44, ../components/sass/main.scss */
+/* line 48, ../components/sass/main.scss */
 header {
   background-color: #3f010b;
   border-top: 7px solid #ff0000;
 }
 @media (max-width: 991px) {
-  /* line 44, ../components/sass/main.scss */
+  /* line 48, ../components/sass/main.scss */
   header {
     background-color: #ebebeb;
     border-top: 0;
   }
 }
 
-/* line 54, ../components/sass/main.scss */
+/* line 58, ../components/sass/main.scss */
 #logo-box {
   height: 144px;
   position: relative;
 }
-/* line 57, ../components/sass/main.scss */
+/* line 61, ../components/sass/main.scss */
 #logo-box #logo-words {
   position: absolute;
   left: 0;
   height: 44px;
   margin-top: 37px;
 }
-/* line 63, ../components/sass/main.scss */
+/* line 67, ../components/sass/main.scss */
 #logo-box #logo-hex {
   position: absolute;
   right: 0;
   height: 144px;
 }
 
-/* line 70, ../components/sass/main.scss */
+/* line 74, ../components/sass/main.scss */
 #mobile-logo {
   padding: 24px 0 28px 0;
   text-align: center;
 }
 
-/* line 75, ../components/sass/main.scss */
+/* line 79, ../components/sass/main.scss */
 #welcome {
   font-weight: 300;
 }
 
-/* line 79, ../components/sass/main.scss */
+/* line 83, ../components/sass/main.scss */
 #mobile-hex {
   height: auto;
   width: 42px;
 }
 
-/* line 84, ../components/sass/main.scss */
+/* line 88, ../components/sass/main.scss */
 nav {
   margin-top: -60px;
   font-size: 1.2rem;
   font-weight: 400;
 }
 @media (max-width: 991px) {
-  /* line 84, ../components/sass/main.scss */
+  /* line 88, ../components/sass/main.scss */
   nav {
     font-size: 1rem;
     margin: -16px 0 16px 0;
     text-align: center;
   }
 }
-/* line 93, ../components/sass/main.scss */
+/* line 97, ../components/sass/main.scss */
 nav ul {
   list-style: none;
 }
-/* line 95, ../components/sass/main.scss */
+/* line 99, ../components/sass/main.scss */
 nav ul a, nav ul a:hover, nav ul .active, nav ul #mobile-menu a:hover, #mobile-menu nav ul a:hover, nav ul #mobile-menu .active, #mobile-menu nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul a:hover, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown nav ul .active {
   color: #ffffff;
   text-decoration: none;
@@ -120,96 +125,96 @@ nav ul a, nav ul a:hover, nav ul .active, nav ul #mobile-menu a:hover, #mobile-m
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 100, ../components/sass/main.scss */
+/* line 104, ../components/sass/main.scss */
 nav ul a:hover, nav ul .active, nav ul #mobile-menu a:hover, #mobile-menu nav ul a:hover, nav ul #mobile-menu .active, #mobile-menu nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul a:hover, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown nav ul .active {
   border-bottom: 3px solid #ffffff;
 }
-/* line 105, ../components/sass/main.scss */
+/* line 109, ../components/sass/main.scss */
 nav ul li {
   display: inline;
   margin-right: 2.3rem;
 }
 
-/* line 115, ../components/sass/main.scss */
+/* line 119, ../components/sass/main.scss */
 #facilities-dropdown {
   background-color: #3f010b;
   border-bottom: 7px solid #ff0000;
   border-radius: 0;
 }
-/* line 119, ../components/sass/main.scss */
+/* line 123, ../components/sass/main.scss */
 #facilities-dropdown li {
   margin: 0;
 }
-/* line 122, ../components/sass/main.scss */
+/* line 126, ../components/sass/main.scss */
 #facilities-dropdown a, #facilities-dropdown nav ul .active, nav ul #facilities-dropdown .active, #facilities-dropdown #mobile-menu a:hover, #mobile-menu #facilities-dropdown a:hover, #facilities-dropdown #mobile-menu .active, #mobile-menu #facilities-dropdown .active, #facilities-dropdown #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown #facilities-dropdown .active {
   color: #ffffff;
   font-family: Lato, "Open Sans", sans-serif;
   font-size: 1rem;
   margin: 8px 0 8px 0;
 }
-/* line 127, ../components/sass/main.scss */
+/* line 131, ../components/sass/main.scss */
 #facilities-dropdown a:hover, #facilities-dropdown nav ul .active, nav ul #facilities-dropdown .active, #facilities-dropdown #mobile-menu .active, #mobile-menu #facilities-dropdown .active, #facilities-dropdown #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown #facilities-dropdown a:hover, #facilities-dropdown #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown #facilities-dropdown .active {
   background-color: #ebebeb;
   color: #800112;
   border: 0px;
 }
 
-/* line 135, ../components/sass/main.scss */
+/* line 139, ../components/sass/main.scss */
 #mobile-menu {
   font-size: 1.1rem;
 }
-/* line 137, ../components/sass/main.scss */
+/* line 141, ../components/sass/main.scss */
 #mobile-menu a, #mobile-menu a:hover, #mobile-menu .active, #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .active {
   color: #800112;
 }
-/* line 139, ../components/sass/main.scss */
+/* line 143, ../components/sass/main.scss */
 #mobile-menu a:hover, #mobile-menu .active, #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .active {
   border-bottom: 3px solid #800112;
 }
 @media (max-width: 767px) {
-  /* line 135, ../components/sass/main.scss */
+  /* line 139, ../components/sass/main.scss */
   #mobile-menu {
     font-size: 1rem;
   }
-  /* line 146, ../components/sass/main.scss */
+  /* line 150, ../components/sass/main.scss */
   #mobile-menu li {
     display: block;
     padding: 12px;
   }
 }
-/* line 154, ../components/sass/main.scss */
+/* line 158, ../components/sass/main.scss */
 #mobile-menu #phone-facilities-dropdown {
   border: 7px solid #ff0000;
   border-width: 3px 0;
   margin-top: 8px;
   padding: 0;
 }
-/* line 159, ../components/sass/main.scss */
+/* line 163, ../components/sass/main.scss */
 #mobile-menu #phone-facilities-dropdown li {
   margin: 0;
 }
-/* line 163, ../components/sass/main.scss */
+/* line 167, ../components/sass/main.scss */
 #mobile-menu #tab-facilities-dropdown {
   background-color: #ebebeb;
   border-bottom: 7px solid #ff0000;
   border-radius: 0;
 }
-/* line 167, ../components/sass/main.scss */
+/* line 171, ../components/sass/main.scss */
 #mobile-menu #tab-facilities-dropdown li {
   margin: 8px 0 8px 0;
 }
-/* line 170, ../components/sass/main.scss */
+/* line 174, ../components/sass/main.scss */
 #mobile-menu #tab-facilities-dropdown a, #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .active {
   border-bottom: 3px solid #ebebeb;
 }
-/* line 172, ../components/sass/main.scss */
+/* line 176, ../components/sass/main.scss */
 #mobile-menu nav ul #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown nav ul .active, nav ul #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .active {
   background-color: #ebebeb;
   border-color: #ff0000;
   color: #ff0000;
 }
 
-/* line 182, ../components/sass/main.scss */
+/* line 186, ../components/sass/main.scss */
 #banner {
   margin: 0 auto;
   background-color: #666666;
@@ -219,7 +224,7 @@ nav ul li {
   font-weight: 400;
 }
 @media (max-width: 991px) {
-  /* line 182, ../components/sass/main.scss */
+  /* line 186, ../components/sass/main.scss */
   #banner {
     border-bottom: 0;
     border-top: 7px solid #ff0000;
@@ -230,11 +235,11 @@ nav ul li {
     padding-top: 16px;
   }
 }
-/* line 198, ../components/sass/main.scss */
+/* line 202, ../components/sass/main.scss */
 #banner .carousel-indicators {
   margin-left: 0px;
 }
-/* line 202, ../components/sass/main.scss */
+/* line 206, ../components/sass/main.scss */
 #banner #bannerCarousel .banner-img {
   height: 412px;
   background-position: top center;
@@ -242,74 +247,99 @@ nav ul li {
   background-repeat: no-repeat;
 }
 @media (max-width: 1509px) {
-  /* line 202, ../components/sass/main.scss */
+  /* line 206, ../components/sass/main.scss */
   #banner #bannerCarousel .banner-img {
     height: 325px;
   }
 }
 @media (max-width: 1199px) {
-  /* line 202, ../components/sass/main.scss */
+  /* line 206, ../components/sass/main.scss */
   #banner #bannerCarousel .banner-img {
     height: 270px;
   }
 }
-/* line 214, ../components/sass/main.scss */
+/* line 218, ../components/sass/main.scss */
 #banner #bannerCarousel #banner1 {
   background-image: url(../images/banners/USA_Facilities_1.jpg);
 }
-/* line 217, ../components/sass/main.scss */
+/* line 221, ../components/sass/main.scss */
 #banner #bannerCarousel #banner2 {
   background-image: url(../images/banners/USA_Facilities_2.jpg);
 }
-/* line 221, ../components/sass/main.scss */
+/* line 224, ../components/sass/main.scss */
+#banner #bannerCarousel #banner3 {
+  background-image: url(../images/banners/China_Facilities_1.jpg);
+}
+/* line 227, ../components/sass/main.scss */
+#banner #bannerCarousel #banner4 {
+  background-image: url(../images/banners/China_Facilities_2.jpg);
+}
+/* line 230, ../components/sass/main.scss */
+#banner #bannerCarousel #banner5 {
+  background-image: url(../images/banners/Home_1.jpg);
+}
+/* line 233, ../components/sass/main.scss */
+#banner #bannerCarousel #banner6 {
+  background-image: url(../images/banners/Home_2.jpg);
+}
+/* line 236, ../components/sass/main.scss */
+#banner #bannerCarousel #banner7 {
+  background-image: url(../images/banners/Services_1.jpg);
+}
+/* line 239, ../components/sass/main.scss */
+#banner #bannerCarousel #banner8 {
+  background-image: url(../images/banners/About_1.jpg);
+}
+/* line 243, ../components/sass/main.scss */
 #banner #banner-caption {
   padding: 12px 0 8px 0;
   width: 100%;
 }
 
-/* line 227, ../components/sass/main.scss */
+/* line 249, ../components/sass/main.scss */
 footer {
+  margin-top: 10px;
+  padding: 24px 0 20px 0;
   background-color: #3f010b;
   border-top: 7px solid #ff0000;
   color: #ffffff;
   font-size: 0.8rem;
-  padding: 24px 0 20px 0;
 }
 @media (max-width: 767px) {
-  /* line 227, ../components/sass/main.scss */
+  /* line 249, ../components/sass/main.scss */
   footer {
     text-align: center;
   }
 }
 
-/* line 238, ../components/sass/main.scss */
+/* line 261, ../components/sass/main.scss */
 .even {
   background-color: #ebebeb;
 }
 
-/* line 242, ../components/sass/main.scss */
+/* line 265, ../components/sass/main.scss */
 h2 {
   font-size: 2rem;
   margin-bottom: 28px;
   margin-top: 36px;
 }
 
-/* line 248, ../components/sass/main.scss */
+/* line 271, ../components/sass/main.scss */
 h3 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-/* line 254, ../components/sass/main.scss */
+/* line 277, ../components/sass/main.scss */
 main p {
   font-size: 0.9rem;
   padding-bottom: 24px;
 }
-/* line 258, ../components/sass/main.scss */
+/* line 281, ../components/sass/main.scss */
 main a, main nav ul a:hover, nav ul main a:hover, main nav ul .active, nav ul main .active, main #mobile-menu a:hover, #mobile-menu main a:hover, main #mobile-menu .active, #mobile-menu main .active, main #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown main a:hover, main #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown main .active {
   color: #ff0000;
 }
-/* line 260, ../components/sass/main.scss */
+/* line 283, ../components/sass/main.scss */
 main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main nav ul .active:visited, nav ul main .active:visited, main #mobile-menu a:visited:hover, #mobile-menu main a:visited:hover, main #mobile-menu .active:visited, #mobile-menu main .active:visited, main #mobile-menu #tab-facilities-dropdown a:visited:hover, #mobile-menu #tab-facilities-dropdown main a:visited:hover, main #mobile-menu #tab-facilities-dropdown .active:visited, #mobile-menu #tab-facilities-dropdown main .active:visited, main a:hover, main nav ul a:hover, nav ul main a:hover, main nav ul .active, nav ul main .active, main #mobile-menu a:hover, #mobile-menu main a:hover, main #mobile-menu .active, #mobile-menu main .active, main #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown main a:hover, main #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown main .active {
   color: #ff0000;
 }
@@ -319,7 +349,7 @@ main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main n
 COMPASS AESTHETIC STYLES
 
  *****************************************************************************/
-/* line 273, ../components/sass/main.scss */
+/* line 296, ../components/sass/main.scss */
 #facilities-dropdown {
   -moz-box-shadow: 5px 5px 10px black;
   -webkit-box-shadow: 5px 5px 10px black;
@@ -329,10 +359,16 @@ COMPASS AESTHETIC STYLES
   border-radius: 5px;
 }
 
-/* line 290, ../components/sass/main.scss */
-.callout-image--small {
+/* line 301, ../components/sass/main.scss */
+.callout-block {
   float: right;
-  margin: 100px 1em 1em 1em;
+  position: relative;
+}
+
+/* line 318, ../components/sass/main.scss */
+.callout-image--small {
+  position: relative;
+  margin: 100px 3em 3em 3em;
   -moz-box-shadow: 0px 5px #333333;
   -webkit-box-shadow: 0px 5px #333333;
   box-shadow: 0px 5px #333333;
@@ -342,16 +378,16 @@ COMPASS AESTHETIC STYLES
   max-width: 250px;
 }
 @media (max-width: 991px) {
-  /* line 290, ../components/sass/main.scss */
+  /* line 318, ../components/sass/main.scss */
   .callout-image--small {
     display: none;
   }
 }
 
-/* line 295, ../components/sass/main.scss */
+/* line 323, ../components/sass/main.scss */
 .callout-image--medium {
-  float: right;
-  margin: 100px 1em 1em 1em;
+  position: relative;
+  margin: 100px 3em 3em 3em;
   -moz-box-shadow: 0px 5px #333333;
   -webkit-box-shadow: 0px 5px #333333;
   box-shadow: 0px 5px #333333;
@@ -361,16 +397,16 @@ COMPASS AESTHETIC STYLES
   max-width: 300px;
 }
 @media (max-width: 991px) {
-  /* line 295, ../components/sass/main.scss */
+  /* line 323, ../components/sass/main.scss */
   .callout-image--medium {
     display: none;
   }
 }
 
-/* line 300, ../components/sass/main.scss */
+/* line 328, ../components/sass/main.scss */
 .callout-image--large {
-  float: right;
-  margin: 100px 1em 1em 1em;
+  position: relative;
+  margin: 100px 3em 3em 3em;
   -moz-box-shadow: 0px 5px #333333;
   -webkit-box-shadow: 0px 5px #333333;
   box-shadow: 0px 5px #333333;
@@ -380,19 +416,91 @@ COMPASS AESTHETIC STYLES
   max-width: 500px;
 }
 @media (max-width: 991px) {
-  /* line 300, ../components/sass/main.scss */
+  /* line 328, ../components/sass/main.scss */
   .callout-image--large {
     display: none;
   }
 }
 
-/* line 305, ../components/sass/main.scss */
+/* line 341, ../components/sass/main.scss */
+.callout-caption {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: 0em;
+  text-align: center;
+}
+
+/* line 345, ../components/sass/main.scss */
+.services-rnd-callout-caption {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: 2.5em;
+  text-align: center;
+}
+
+/* line 349, ../components/sass/main.scss */
+.production-callout-caption {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: 2em;
+  text-align: center;
+}
+
+/* line 353, ../components/sass/main.scss */
+#production-first-large-callout {
+  margin-top: -5.5em;
+}
+
+/* line 357, ../components/sass/main.scss */
+.china-rnd-callout-caption {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: 2.5em;
+  text-align: center;
+}
+
+/* line 361, ../components/sass/main.scss */
+.about-callout-caption {
+  position: relative;
+  width: 75%;
+  margin: 0 auto;
+  bottom: 2.5em;
+  text-align: center;
+  width: 60%;
+}
+
+/* line 366, ../components/sass/main.scss */
+.about-callout-image {
+  margin-left: 5.5em;
+}
+
+/* line 370, ../components/sass/main.scss */
+.production-callout-image {
+  margin-bottom: 3em;
+}
+
+/* line 374, ../components/sass/main.scss */
 #rnd-usa-large-callout {
   margin-top: 50px;
 }
 
+/* line 378, ../components/sass/main.scss */
+.sourcing-advantage {
+  padding: 0;
+  font-weight: bold;
+}
+/* line 382, ../components/sass/main.scss */
+.sourcing-advantage a, .sourcing-advantage nav ul a:hover, nav ul .sourcing-advantage a:hover, .sourcing-advantage nav ul .active, nav ul .sourcing-advantage .active, .sourcing-advantage #mobile-menu a:hover, #mobile-menu .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu .active, #mobile-menu .sourcing-advantage .active, .sourcing-advantage #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .sourcing-advantage .active {
+  color: #800112;
+  text-decoration: none;
+}
+
 @media (max-width: 991px) {
-  /* line 309, ../components/sass/main.scss */
+  /* line 388, ../components/sass/main.scss */
   .mobile-hidden {
     display: none;
   }
