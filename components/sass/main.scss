@@ -342,7 +342,53 @@ COMPASS AESTHETIC STYLES
   @media (max-width: $tabletsize) {
     display: none;
   }
+}
 
+.callout-caption {
+  @include callout-caption-base(0em);
+}
+
+.services-rnd-callout-caption {
+  @include callout-caption-base(2.5em);
+}
+
+.production-callout-caption {
+  @include callout-caption-base(2em);
+}
+
+#production-first-large-callout {
+  margin-top: -5.5em;
+}
+
+.china-rnd-callout-caption {
+  @include callout-caption-base(2.5em);
+}
+
+.about-callout-caption {
+  @include callout-caption-base(2.5em);
+  width: 60%;
+}
+
+.about-callout-image {
+  margin-left: 5.5em;
+}
+
+.production-callout-image {
+  margin-bottom: 3em;
+}
+
+#rnd-usa-large-callout {
+  margin-top: 50px;
+}
+
+.sourcing-advantage {
+  padding: 0;
+  font-weight: bold;
+
+  a {
+    color: $maroon-text;
+    text-decoration: none;
+  }
 }
 
 .callout-caption {
