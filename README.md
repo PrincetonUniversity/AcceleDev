@@ -1,57 +1,67 @@
-###### ###### ###### ######
-#  AcceleDev - README.md  #
-###### ###### ###### ######
+# AcceleDev - README.md #
 
-Things to ask Charlie about:
-- need pdfs for links on bottom of Services page
+Things to tell Charlie about:
+- the red links are FINE. people who use the internet see different coloered
+  links on a lot of websites, and blue completely clashes with the site's
+  aesthetic
+- tell him that the 'text changes to the News page' have all been 
+  made and i have no idea what he wants
 
 ###### ###### ###### ###### ###### ######### ###### ###### ###### ###### ###### 
 
-TODO list:
-- ^ TODO: make design changes to new template home page
-        - ^ change header background color and add chemical symbols
-        - ^ change Welcome to AcceleDev pictures
-        - ^ move red bar from top of banner to top of page
-        - ^ stack banner and banner caption, remove transparncy
-- ^ TODO: add carousel to Home page template
-- TODO: add carousel hex indicator to Home page template
-- TODO: change mobile Facilities dropdown in template to collapse, not toggle
-- TODO: migrate all old page content to new template
-- TODO: add some content images to the pages (should probably wait to
-        see which images Joe uses for banners first)
+# TODO list: ##################################################################
+
+# Home Page
+- TODO: shrink and italicize banner caption text to single line
+- TODO: add maroon border to bottom of banner photo
+
+# About Page
+- TODO: shrink and italicize banner caption text to single line
+- TODO: add maroon border to bottom of banner photo
+- TODO: For the “award pic in the lower/text section right side, 
+        change the text to instead read: AcceleDev principles accept 
+        J&J’s/ Janssen Pharmaceutical’s 2014 Outstanding R&D achievement 
+        award. Also make the pic just a little bigger, & slide it 
+        towards the right side of the page.
+
+# Services Page
+- TODO: shrink and italicize banner caption text
+- TODO: add maroon border to bottom of banner photo
 
 
-# Home Page ###################################################################
-- ^ TODO: text changes requested by charlie in keynotes doc
-
-
-# About Page ##################################################################
-- ^ TODO: text changes requested by charlie in keynotes doc
-- ^ TODO: add "What we Stand For" section
-
-
-# Services Page ###############################################################
-- ^ TODO: add "Raw Material Sourcing Advantage" section
-- ^ TODO: text changes requested by charlie in keynotes doc
-- ^ TODO: add positional link to "Raw material sourcing advantage" section
-
-
-# News Page ###################################################################
-- ^ TODO: create news page
-- ^ TODO: add news page content
-
-
-# Facilities Pages ############################################################
+# Facilities Pages
 ##  USA R&D Facility Page
-- ^ TODO: text changes requested by charlie in keynotes doc
+- TODO: The text(Staffed by...): Should instead say: “Staffed by 
+        industry experts and located in proximity to numerous 
+        pharmaceutical companies and Princeton University, 
+        our New Jersey site has the full range of complimentary 
+        capabilities to complete any challenging chemistry project 
+        quickly & successfully”. Instead make this text smaller 
+        by shrinking the font, & make it italics. Then also make 
+        this grey section accordingly much smaller.
+- TODO: add maroon border to bottom of banner photo
+- TODO: I suggest to find pic “Picture 033” in the banner folder pics section & use it to instead replace the current pic in the text (stef included), next to the New Jersey Facility, United States section. Place this “Stef pic” instead next to the HPLC text section of the “Analytical Capabilities (both on-site and contracted)”. Also place this “Picture 033” in the “contacts page” as a small pic there in the text.
+- TODO: Find pic “DSC_0025” in the US facilities banner pics folder, & place next to the NMR txt section of the “Analytical Capabilities (both on-site and contracted)”
+- TODO: Find pic “DSC_0052” in the US facilities banner pics folder, & place next to the LC-MC, GC-MS, Other spectroscopy section of the “Analytical Capabilities (both on-site and contracted)”.
 
 ##  Nanjing R&D Facility Page
-- ^ TODO: text changes requested by charlie in keynotes doc
+- TODO: The text(We operate & partner….…….): Should instead say: “Staffed by industry experts and located in proximity to numerous pharmaceutical companies and Nanjing University, our Nanjing China site has the full range of complimentary capabilities to complete any challenging chemistry project quickly & successfully”. Also make this text smaller by shrinking the font, & make it italics. Then also make this grey section accordingly much smaller.
+- TODO: add maroon border to bottom of banner photo
+- TODO: Find pic “stability chamber 2” in the china facilities banner pics folder, & place it as small pic near the text of the “analytical instrumentation” section.
+- TODO: Find pic “AcceleDev chromatogram Room 1” in the china facilities banner pics folder, & place it also as small pic near the text of the “analytical instrumentation” section.
+
 
 ##  Production Facilities
-- ^ TODO: create Production Facilities Page
-- ^ TODO: add production page content
+- TODO: The text(We operate & partner….…….): Should instead say: “With multiple pilot and full commercial scale production facilities in china, we offer a wide range of reactor vessels & a team of experts that can quickly scale-up & safely commercially produce any challenging or hazardous chemistry, at low cost.” Also make this text smaller by shrinking the font, & make it italics. Then also make this grey section accordingly much smaller.
+- TODO: add maroon border to bottom of banner photo
+- TODO: Delete/remove all the current pics in the text of this section, & replace them instead with those described below.
+- TODO: Find pic “QC Lab” in the china facilities banner pics folder, & place it also as small pic near the text of the “analytical instrumentation” section.
+- TODO: Find pic “production Area - glassline reactor” in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
+- TODO: Find the “Production Area - low temperature reators” pic in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
+- TODO: Find the “IMG_2142” pic in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
+- TODO: Replace the pic(girl) near to the Chinese Production Facilities upper text area, instead with the “team pic” in the #1 position of “about us” page.
+
+# News Page
 
 
-# Contact Page ################################################################
-- ^ TODO: text changes requested by charlie in keynotes doc
+# Contact Page
