@@ -192,13 +192,13 @@ nav {
     background-color: #ffffff;
     color: $maroon-text;
     font-size: 0.9rem;
-    font-style: italic;
     padding-top: 16px;
   }
   .carousel-indicators {
     margin-left: 0px;
   }
   #bannerCarousel {
+    border-bottom: 7px solid $maroon-bg;
     .banner-img {
       height: 412px;
       background-position: top center;
@@ -219,6 +219,8 @@ nav {
     }
   }
   #banner-caption {
+    font-size: 0.8rem;
+    font-style: italic;
     padding: 12px 0 8px 0;
     width: 100%;
   }
