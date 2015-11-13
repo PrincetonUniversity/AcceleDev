@@ -208,10 +208,10 @@ nav {
       background-position: top center;
       background-size: contain;
       background-repeat: no-repeat;
-      @media (max-width: 1509px) {
+      @media (max-width: $large_banner) {
           height: 325px;
       }
-      @media (max-width: 1199px) {
+      @media (max-width: $med_banner) {
           height: 270px;
       }
     }
@@ -242,9 +242,19 @@ nav {
   }
   #banner-caption {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
     padding: 12px 0 8px 0;
     width: 100%;
+    font-size: 0.9rem;
+    font-style: italic;
+    @media (min-width: $large_banner) {
+      margin-left: -25%;
+      margin-right: -25%;
+      width: 150%;
+      p {
+        text-align: center;
+      }
+    }
   }
 }
 
@@ -303,6 +313,7 @@ COMPASS AESTHETIC STYLES
 .callout-block {
   float: right;
   position: relative;
+  text-align: center;
 }
 
 @mixin callout-image() {
@@ -338,6 +349,7 @@ COMPASS AESTHETIC STYLES
   margin: 0 auto;
   bottom: $bottom;
   text-align: center;
+  font-style: italic;
 
   @media (max-width: $tabletsize) {
     display: none;
@@ -348,37 +360,12 @@ COMPASS AESTHETIC STYLES
   @include callout-caption-base(0em);
 }
 
-.services-rnd-callout-caption {
-  @include callout-caption-base(2.5em);
-}
-
-.production-callout-caption {
-  @include callout-caption-base(2em);
-}
-
 #production-first-large-callout {
   margin-top: -5.5em;
 }
 
-.china-rnd-callout-caption {
-  @include callout-caption-base(2.5em);
-}
-
-.about-callout-caption {
-  @include callout-caption-base(2.5em);
-  width: 60%;
-}
-
-.about-callout-image {
-  margin-left: 5.5em;
-}
-
 .production-callout-image {
   margin-bottom: 3em;
-}
-
-#rnd-usa-large-callout {
-  margin-top: 50px;
 }
 
 .sourcing-advantage {
@@ -391,12 +378,14 @@ COMPASS AESTHETIC STYLES
   }
 }
 
-.callout-caption {
-  @include callout-caption-base(0em);
-}
-
 .services-rnd-callout-caption {
   @include callout-caption-base(2.5em);
+}
+
+.services-rnd-callout-image {
+  margin-left: 5em;
+  margin-right: 5em;
+  max-height: 200px;
 }
 
 .production-callout-caption {
@@ -411,21 +400,45 @@ COMPASS AESTHETIC STYLES
   @include callout-caption-base(2.5em);
 }
 
+.china-callout {
+  margin-top: 125px;
+  margin-right: -20px;
+}
+
+.china-callout2 {
+  margin-top: 50px;
+}
+
 .about-callout-caption {
   @include callout-caption-base(2.5em);
-  width: 60%;
+  width: 80%;
 }
 
 .about-callout-image {
-  margin-left: 5.5em;
+  margin-left: 3em;
+}
+
+.about-callout-block {
+    width: 40%;
 }
 
 .production-callout-image {
   margin-bottom: 3em;
 }
 
+#rnd-usa-first-large-callout {
+  max-width: 460px;
+  margin-top: 5px;
+  margin-left: 5em;
+}
+
 #rnd-usa-large-callout {
-  margin-top: 50px;
+  margin-top: -25px;
+  max-width: 460px;
+}
+
+#rnd-large-callout-caption {
+  width: 100%;
 }
 
 .sourcing-advantage {
