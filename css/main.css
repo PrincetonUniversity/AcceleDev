@@ -459,27 +459,43 @@ COMPASS AESTHETIC STYLES
 }
 
 /* line 363, ../components/sass/main.scss */
-#production-first-large-callout {
-  margin-top: -5.5em;
+#production-first-reactor-callout {
+  clear: left;
+}
+/* line 365, ../components/sass/main.scss */
+#production-first-reactor-callout img {
+  margin-right: 0;
+  margin-left: 5px;
+  max-width: 350px;
+}
+@media (min-width: 1199px) {
+  /* line 363, ../components/sass/main.scss */
+  #production-first-reactor-callout {
+    margin-right: 40px;
+  }
 }
 
-/* line 367, ../components/sass/main.scss */
+/* line 378, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 371, ../components/sass/main.scss */
+/* line 382, ../components/sass/main.scss */
+#production-callout-image-large {
+  margin-top: -32px;
+}
+
+/* line 386, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
 }
-/* line 375, ../components/sass/main.scss */
+/* line 390, ../components/sass/main.scss */
 .sourcing-advantage a, .sourcing-advantage nav ul a:hover, nav ul .sourcing-advantage a:hover, .sourcing-advantage nav ul .active, nav ul .sourcing-advantage .active, .sourcing-advantage #mobile-menu a:hover, #mobile-menu .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu .active, #mobile-menu .sourcing-advantage .active, .sourcing-advantage #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .sourcing-advantage .active {
-  color: #800112;
   text-decoration: none;
 }
 
-/* line 381, ../components/sass/main.scss */
+/* line 395, ../components/sass/main.scss */
 .services-rnd-callout-caption {
   position: relative;
   width: 75%;
@@ -489,20 +505,20 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 381, ../components/sass/main.scss */
+  /* line 395, ../components/sass/main.scss */
   .services-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 385, ../components/sass/main.scss */
+/* line 399, ../components/sass/main.scss */
 .services-rnd-callout-image {
   margin-left: 5em;
   margin-right: 5em;
   max-height: 200px;
 }
 
-/* line 391, ../components/sass/main.scss */
+/* line 405, ../components/sass/main.scss */
 .production-callout-caption {
   position: relative;
   width: 75%;
@@ -512,18 +528,13 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 391, ../components/sass/main.scss */
+  /* line 405, ../components/sass/main.scss */
   .production-callout-caption {
     display: none;
   }
 }
 
-/* line 395, ../components/sass/main.scss */
-#production-first-large-callout {
-  margin-top: -5.5em;
-}
-
-/* line 399, ../components/sass/main.scss */
+/* line 409, ../components/sass/main.scss */
 .china-rnd-callout-caption {
   position: relative;
   width: 75%;
@@ -533,24 +544,24 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 399, ../components/sass/main.scss */
+  /* line 409, ../components/sass/main.scss */
   .china-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 403, ../components/sass/main.scss */
+/* line 413, ../components/sass/main.scss */
 .china-callout {
   margin-top: 125px;
   margin-right: -20px;
 }
 
-/* line 408, ../components/sass/main.scss */
+/* line 418, ../components/sass/main.scss */
 .china-callout2 {
   margin-top: 50px;
 }
 
-/* line 412, ../components/sass/main.scss */
+/* line 422, ../components/sass/main.scss */
 .about-callout-caption {
   position: relative;
   width: 75%;
@@ -561,46 +572,46 @@ COMPASS AESTHETIC STYLES
   width: 80%;
 }
 @media (max-width: 991px) {
-  /* line 412, ../components/sass/main.scss */
+  /* line 422, ../components/sass/main.scss */
   .about-callout-caption {
     display: none;
   }
 }
 
-/* line 417, ../components/sass/main.scss */
+/* line 427, ../components/sass/main.scss */
 .about-callout-image {
   margin-left: 3em;
 }
 
-/* line 421, ../components/sass/main.scss */
+/* line 431, ../components/sass/main.scss */
 .about-callout-block {
   width: 40%;
 }
 
-/* line 425, ../components/sass/main.scss */
+/* line 435, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 429, ../components/sass/main.scss */
+/* line 439, ../components/sass/main.scss */
 #rnd-usa-first-large-callout {
   max-width: 460px;
   margin-top: 5px;
   margin-left: 5em;
 }
 
-/* line 435, ../components/sass/main.scss */
+/* line 445, ../components/sass/main.scss */
 #rnd-usa-large-callout {
   margin-top: -25px;
   max-width: 460px;
 }
 
-/* line 440, ../components/sass/main.scss */
+/* line 450, ../components/sass/main.scss */
 #rnd-large-callout-caption {
   width: 100%;
 }
 
-/* line 444, ../components/sass/main.scss */
+/* line 454, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;

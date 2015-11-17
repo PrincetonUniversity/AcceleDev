@@ -8,6 +8,8 @@ Things to tell Charlie about:
   made and i have no idea what he wants
 - there is no DSC_0052 in the US Facilities folder, so I left the
   current HPLC photo
+- IMG_2142 has a timestamp, so we should not use it as it looks
+  highly unprofessional
 
 ###### ###### ###### ###### ###### ######### ###### ###### ###### ###### ###### 
 
@@ -57,11 +59,11 @@ Things to tell Charlie about:
 - X TODO: The text(We operate & partner….…….): Should instead say: “With multiple pilot and full commercial scale production facilities in china, we offer a wide range of reactor vessels & a team of experts that can quickly scale-up & safely commercially produce any challenging or hazardous chemistry, at low cost.” Also make this text smaller by shrinking the font, & make it italics. Then also make this grey section accordingly much smaller.
 - X TODO: add maroon border to bottom of banner photo
 - TODO: Delete/remove all the current pics in the text of this section, & replace them instead with those described below.
-- TODO: Find pic “QC Lab” in the china facilities banner pics folder, & place it also as small pic near the text of the “analytical instrumentation” section.
-- TODO: Find pic “production Area - glassline reactor” in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
-- TODO: Find the “Production Area - low temperature reators” pic in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
+- X TODO: Find pic “QC Lab” in the china facilities banner pics folder, & place it also as small pic near the text of the “analytical instrumentation” section.
+- X TODO: Find pic “production Area - glassline reactor” in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
+- X TODO: Find the “Production Area - low temperature reators” pic in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
 - TODO: Find the “IMG_2142” pic in the china facilities banner pics folder, & place it also as small pic near the text of the “pilot & commercial reactors” section.
-- TODO: Replace the pic(girl) near to the Chinese Production Facilities upper text area, instead with the “team pic” in the #1 position of “about us” page.
+- X TODO: Replace the pic(girl) near to the Chinese Production Facilities upper text area, instead with the “team pic” in the #1 position of “about us” page.
 
 # News Page
 

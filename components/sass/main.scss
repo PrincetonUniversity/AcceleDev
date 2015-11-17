@@ -360,12 +360,27 @@ COMPASS AESTHETIC STYLES
   @include callout-caption-base(0em);
 }
 
-#production-first-large-callout {
-  margin-top: -5.5em;
+#production-first-reactor-callout {
+  clear: left;
+  img {
+    margin-right: 0;
+    margin-left: 5px;
+    max-width: 350px;
+  }
+  @media (min-width: $med-banner) {
+    margin-right: 40px;
+  }
+}
+
+#production-second-reactor-callout {
 }
 
 .production-callout-image {
   margin-bottom: 3em;
+}
+
+#production-callout-image-large {
+  margin-top: -32px;
 }
 
 .sourcing-advantage {
@@ -373,7 +388,6 @@ COMPASS AESTHETIC STYLES
   font-weight: bold;
 
   a {
-    color: $maroon-text;
     text-decoration: none;
   }
 }
@@ -390,10 +404,6 @@ COMPASS AESTHETIC STYLES
 
 .production-callout-caption {
   @include callout-caption-base(2em);
-}
-
-#production-first-large-callout {
-  margin-top: -5.5em;
 }
 
 .china-rnd-callout-caption {
