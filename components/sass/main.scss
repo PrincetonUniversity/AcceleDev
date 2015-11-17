@@ -298,6 +298,12 @@ main {
   }
 }
 
+.news-date {
+  font-style: bold;
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
 
 /*****************************************************************************
  
@@ -380,7 +386,8 @@ COMPASS AESTHETIC STYLES
 }
 
 #production-callout-image-large {
-  margin-top: -32px;
+  margin-top: 32px;
+  max-width: 440px;
 }
 
 .sourcing-advantage {
@@ -454,4 +461,9 @@ COMPASS AESTHETIC STYLES
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
+}
+
+.contact-callout {
+  margin-right: 50px;
+  margin-top: -12px;
 }
