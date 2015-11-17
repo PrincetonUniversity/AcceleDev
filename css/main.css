@@ -365,7 +365,7 @@ main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main n
 
 /* line 301, ../components/sass/main.scss */
 .news-date {
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.2rem;
   margin-right: 8px;
 }
