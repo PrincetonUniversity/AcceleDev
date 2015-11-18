@@ -262,14 +262,15 @@ nav {
 }
 
 footer {
-  margin-top: 10px;
-  padding: 24px 0 20px 0;
+  padding: 24px 0 20px 8px;
   background-color: $maroon-bg;
   border-top: $redline;
   color: #ffffff;
   font-size: 0.8rem;
-  @media (max-width: $phonesize) {
-    text-align: center;
+  p {
+    @media (max-width: $tabletsize) {
+      text-align: center;
+    }
   }
 }
 
