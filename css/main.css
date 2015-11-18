@@ -263,37 +263,41 @@ nav ul li {
 }
 /* line 218, ../components/sass/main.scss */
 #banner #bannerCarousel #banner1 {
-  background-image: url(../images/banners/USA_Facilities_1.jpg);
+  background-image: url(../images/new_banners/About_Only_small.jpg);
 }
 /* line 221, ../components/sass/main.scss */
 #banner #bannerCarousel #banner2 {
-  background-image: url(../images/banners/USA_Facilities_2.jpg);
+  background-image: url(../images/new_banners/Home_1_small.jpg);
 }
 /* line 224, ../components/sass/main.scss */
 #banner #bannerCarousel #banner3 {
-  background-image: url(../images/banners/China_Facilities_1.jpg);
+  background-image: url(../images/new_banners/Home_2_small.jpg);
 }
 /* line 227, ../components/sass/main.scss */
 #banner #bannerCarousel #banner4 {
-  background-image: url(../images/banners/China_Facilities_2.jpg);
+  background-image: url(../images/new_banners/Nanjing_Facilities_Only_small.jpg);
 }
 /* line 230, ../components/sass/main.scss */
 #banner #bannerCarousel #banner5 {
-  background-image: url(../images/banners/Home_1.jpg);
+  background-image: url(../images/new_banners/News_1_small.jpg);
 }
 /* line 233, ../components/sass/main.scss */
 #banner #bannerCarousel #banner6 {
-  background-image: url(../images/banners/Home_2.jpg);
+  background-image: url(../images/new_banners/News_2_small.jpg);
 }
 /* line 236, ../components/sass/main.scss */
 #banner #bannerCarousel #banner7 {
-  background-image: url(../images/banners/Services_1.jpg);
+  background-image: url(../images/new_banners/Production_Facilities_Only_small.jpg);
 }
 /* line 239, ../components/sass/main.scss */
 #banner #bannerCarousel #banner8 {
-  background-image: url(../images/banners/About_1.jpg);
+  background-image: url(../images/new_banners/Services_Only_small.jpg);
 }
-/* line 243, ../components/sass/main.scss */
+/* line 242, ../components/sass/main.scss */
+#banner #bannerCarousel #banner9 {
+  background-image: url(../images/new_banners/USA_Facilities_Only_small.jpg);
+}
+/* line 246, ../components/sass/main.scss */
 #banner #banner-caption {
   width: 100%;
   margin: 0;
@@ -303,19 +307,19 @@ nav ul li {
   font-style: italic;
 }
 @media (min-width: 1509px) {
-  /* line 243, ../components/sass/main.scss */
+  /* line 246, ../components/sass/main.scss */
   #banner #banner-caption {
     margin-left: -25%;
     margin-right: -25%;
     width: 150%;
   }
-  /* line 254, ../components/sass/main.scss */
+  /* line 257, ../components/sass/main.scss */
   #banner #banner-caption p {
     text-align: center;
   }
 }
 
-/* line 261, ../components/sass/main.scss */
+/* line 264, ../components/sass/main.scss */
 footer {
   margin-top: 10px;
   padding: 24px 0 20px 0;
@@ -325,45 +329,45 @@ footer {
   font-size: 0.8rem;
 }
 @media (max-width: 767px) {
-  /* line 261, ../components/sass/main.scss */
+  /* line 264, ../components/sass/main.scss */
   footer {
     text-align: center;
   }
 }
 
-/* line 273, ../components/sass/main.scss */
+/* line 276, ../components/sass/main.scss */
 .even {
   background-color: #ebebeb;
 }
 
-/* line 277, ../components/sass/main.scss */
+/* line 280, ../components/sass/main.scss */
 h2 {
   font-size: 2rem;
   margin-bottom: 28px;
   margin-top: 36px;
 }
 
-/* line 283, ../components/sass/main.scss */
+/* line 286, ../components/sass/main.scss */
 h3 {
   font-size: 1.2rem;
   font-weight: 600;
 }
 
-/* line 289, ../components/sass/main.scss */
+/* line 292, ../components/sass/main.scss */
 main p {
   font-size: 0.9rem;
   padding-bottom: 24px;
 }
-/* line 293, ../components/sass/main.scss */
+/* line 296, ../components/sass/main.scss */
 main a, main nav ul a:hover, nav ul main a:hover, main nav ul .active, nav ul main .active, main #mobile-menu a:hover, #mobile-menu main a:hover, main #mobile-menu .active, #mobile-menu main .active, main #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown main a:hover, main #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown main .active {
   color: #ff0000;
 }
-/* line 295, ../components/sass/main.scss */
+/* line 298, ../components/sass/main.scss */
 main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main nav ul .active:visited, nav ul main .active:visited, main #mobile-menu a:visited:hover, #mobile-menu main a:visited:hover, main #mobile-menu .active:visited, #mobile-menu main .active:visited, main #mobile-menu #tab-facilities-dropdown a:visited:hover, #mobile-menu #tab-facilities-dropdown main a:visited:hover, main #mobile-menu #tab-facilities-dropdown .active:visited, #mobile-menu #tab-facilities-dropdown main .active:visited, main a:hover, main nav ul a:hover, nav ul main a:hover, main nav ul .active, nav ul main .active, main #mobile-menu a:hover, #mobile-menu main a:hover, main #mobile-menu .active, #mobile-menu main .active, main #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown main a:hover, main #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown main .active {
   color: #ff0000;
 }
 
-/* line 301, ../components/sass/main.scss */
+/* line 304, ../components/sass/main.scss */
 .news-date {
   font-weight: bold;
   font-size: 1.2rem;
@@ -375,7 +379,7 @@ main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main n
 COMPASS AESTHETIC STYLES
 
  *****************************************************************************/
-/* line 314, ../components/sass/main.scss */
+/* line 317, ../components/sass/main.scss */
 #facilities-dropdown {
   -moz-box-shadow: 5px 5px 10px black;
   -webkit-box-shadow: 5px 5px 10px black;
@@ -385,14 +389,14 @@ COMPASS AESTHETIC STYLES
   border-radius: 5px;
 }
 
-/* line 319, ../components/sass/main.scss */
+/* line 322, ../components/sass/main.scss */
 .callout-block {
   float: right;
   position: relative;
   text-align: center;
 }
 
-/* line 337, ../components/sass/main.scss */
+/* line 340, ../components/sass/main.scss */
 .callout-image--small {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -405,13 +409,13 @@ COMPASS AESTHETIC STYLES
   max-width: 250px;
 }
 @media (max-width: 991px) {
-  /* line 337, ../components/sass/main.scss */
+  /* line 340, ../components/sass/main.scss */
   .callout-image--small {
     display: none;
   }
 }
 
-/* line 342, ../components/sass/main.scss */
+/* line 345, ../components/sass/main.scss */
 .callout-image--medium {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -424,13 +428,13 @@ COMPASS AESTHETIC STYLES
   max-width: 300px;
 }
 @media (max-width: 991px) {
-  /* line 342, ../components/sass/main.scss */
+  /* line 345, ../components/sass/main.scss */
   .callout-image--medium {
     display: none;
   }
 }
 
-/* line 347, ../components/sass/main.scss */
+/* line 350, ../components/sass/main.scss */
 .callout-image--large {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -443,13 +447,13 @@ COMPASS AESTHETIC STYLES
   max-width: 500px;
 }
 @media (max-width: 991px) {
-  /* line 347, ../components/sass/main.scss */
+  /* line 350, ../components/sass/main.scss */
   .callout-image--large {
     display: none;
   }
 }
 
-/* line 365, ../components/sass/main.scss */
+/* line 368, ../components/sass/main.scss */
 .callout-caption {
   position: relative;
   width: 75%;
@@ -459,51 +463,51 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 365, ../components/sass/main.scss */
+  /* line 368, ../components/sass/main.scss */
   .callout-caption {
     display: none;
   }
 }
 
-/* line 369, ../components/sass/main.scss */
+/* line 372, ../components/sass/main.scss */
 #production-first-reactor-callout {
   clear: left;
 }
-/* line 371, ../components/sass/main.scss */
+/* line 374, ../components/sass/main.scss */
 #production-first-reactor-callout img {
   margin-right: 0;
   margin-left: 5px;
   max-width: 350px;
 }
 @media (min-width: 1199px) {
-  /* line 369, ../components/sass/main.scss */
+  /* line 372, ../components/sass/main.scss */
   #production-first-reactor-callout {
     margin-right: 40px;
   }
 }
 
-/* line 384, ../components/sass/main.scss */
+/* line 387, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 388, ../components/sass/main.scss */
+/* line 391, ../components/sass/main.scss */
 #production-callout-image-large {
   margin-top: 32px;
   max-width: 440px;
 }
 
-/* line 393, ../components/sass/main.scss */
+/* line 396, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
 }
-/* line 397, ../components/sass/main.scss */
+/* line 400, ../components/sass/main.scss */
 .sourcing-advantage a, .sourcing-advantage nav ul a:hover, nav ul .sourcing-advantage a:hover, .sourcing-advantage nav ul .active, nav ul .sourcing-advantage .active, .sourcing-advantage #mobile-menu a:hover, #mobile-menu .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu .active, #mobile-menu .sourcing-advantage .active, .sourcing-advantage #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .sourcing-advantage .active {
   text-decoration: none;
 }
 
-/* line 402, ../components/sass/main.scss */
+/* line 405, ../components/sass/main.scss */
 .services-rnd-callout-caption {
   position: relative;
   width: 75%;
@@ -513,20 +517,20 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 402, ../components/sass/main.scss */
+  /* line 405, ../components/sass/main.scss */
   .services-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 406, ../components/sass/main.scss */
+/* line 409, ../components/sass/main.scss */
 .services-rnd-callout-image {
   margin-left: 5em;
   margin-right: 5em;
   max-height: 200px;
 }
 
-/* line 412, ../components/sass/main.scss */
+/* line 415, ../components/sass/main.scss */
 .production-callout-caption {
   position: relative;
   width: 75%;
@@ -536,13 +540,13 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 412, ../components/sass/main.scss */
+  /* line 415, ../components/sass/main.scss */
   .production-callout-caption {
     display: none;
   }
 }
 
-/* line 416, ../components/sass/main.scss */
+/* line 419, ../components/sass/main.scss */
 .china-rnd-callout-caption {
   position: relative;
   width: 75%;
@@ -552,24 +556,24 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 416, ../components/sass/main.scss */
+  /* line 419, ../components/sass/main.scss */
   .china-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 420, ../components/sass/main.scss */
+/* line 423, ../components/sass/main.scss */
 .china-callout {
   margin-top: 125px;
   margin-right: -20px;
 }
 
-/* line 425, ../components/sass/main.scss */
+/* line 428, ../components/sass/main.scss */
 .china-callout2 {
   margin-top: 50px;
 }
 
-/* line 429, ../components/sass/main.scss */
+/* line 432, ../components/sass/main.scss */
 .about-callout-caption {
   position: relative;
   width: 75%;
@@ -580,52 +584,52 @@ COMPASS AESTHETIC STYLES
   width: 80%;
 }
 @media (max-width: 991px) {
-  /* line 429, ../components/sass/main.scss */
+  /* line 432, ../components/sass/main.scss */
   .about-callout-caption {
     display: none;
   }
 }
 
-/* line 434, ../components/sass/main.scss */
+/* line 437, ../components/sass/main.scss */
 .about-callout-image {
   margin-left: 3em;
 }
 
-/* line 438, ../components/sass/main.scss */
+/* line 441, ../components/sass/main.scss */
 .about-callout-block {
   width: 40%;
 }
 
-/* line 442, ../components/sass/main.scss */
+/* line 445, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 446, ../components/sass/main.scss */
+/* line 449, ../components/sass/main.scss */
 #rnd-usa-first-large-callout {
   max-width: 460px;
   margin-top: 5px;
   margin-left: 5em;
 }
 
-/* line 452, ../components/sass/main.scss */
+/* line 455, ../components/sass/main.scss */
 #rnd-usa-large-callout {
   margin-top: -25px;
   max-width: 460px;
 }
 
-/* line 457, ../components/sass/main.scss */
+/* line 460, ../components/sass/main.scss */
 #rnd-large-callout-caption {
   width: 100%;
 }
 
-/* line 461, ../components/sass/main.scss */
+/* line 464, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
 }
 
-/* line 466, ../components/sass/main.scss */
+/* line 469, ../components/sass/main.scss */
 .contact-callout {
   margin-right: 50px;
   margin-top: -12px;
