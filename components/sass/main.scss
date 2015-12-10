@@ -308,6 +308,10 @@ main {
   margin-right: 8px;
 }
 
+.rotate45 {
+    @include vendor-prefixes(transform, rotate(-44deg));
+}
+
 
 /*****************************************************************************
  
@@ -375,7 +379,7 @@ COMPASS AESTHETIC STYLES
   img {
     margin-right: 0;
     margin-left: 5px;
-    max-width: 350px;
+    max-width: 375px;
   }
   @media (min-width: $med-banner) {
     margin-right: 40px;
@@ -404,13 +408,16 @@ COMPASS AESTHETIC STYLES
 }
 
 .services-rnd-callout-caption {
+  padding-top: 32px;
+  padding-bottom: 0;
   @include callout-caption-base(2.5em);
 }
 
 .services-rnd-callout-image {
+  margin-top: 75px;
   margin-left: 5em;
   margin-right: 5em;
-  max-height: 200px;
+  max-height: 155px;
 }
 
 .production-callout-caption {
@@ -447,9 +454,13 @@ COMPASS AESTHETIC STYLES
   margin-bottom: 3em;
 }
 
+#usa-callout-small {
+    margin-bottom: 1.5em;
+}
+
 #rnd-usa-first-large-callout {
   max-width: 460px;
-  margin-top: 5px;
+  margin-top: 0;
   margin-left: 5em;
 }
 
@@ -459,6 +470,7 @@ COMPASS AESTHETIC STYLES
 }
 
 #rnd-large-callout-caption {
+  padding-top: 10px;
   width: 100%;
 }
 
@@ -470,4 +482,8 @@ COMPASS AESTHETIC STYLES
 .contact-callout {
   margin-right: 50px;
   margin-top: -12px;
+  img {
+    margin-top: 90px;
+    margin-bottom: 2em;
+  }
 }

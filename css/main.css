@@ -373,12 +373,20 @@ main a:visited, main nav ul a:visited:hover, nav ul main a:visited:hover, main n
   margin-right: 8px;
 }
 
+/* line 311, ../components/sass/main.scss */
+.rotate45 {
+  -webkit-transform: rotate(-44deg);
+  -moz-transform: rotate(-44deg);
+  -ms-transform: rotate(-44deg);
+  -o-transform: rotate(-44deg);
+}
+
 /*****************************************************************************
  
 COMPASS AESTHETIC STYLES
 
  *****************************************************************************/
-/* line 318, ../components/sass/main.scss */
+/* line 322, ../components/sass/main.scss */
 #facilities-dropdown {
   -moz-box-shadow: 5px 5px 10px black;
   -webkit-box-shadow: 5px 5px 10px black;
@@ -388,14 +396,14 @@ COMPASS AESTHETIC STYLES
   border-radius: 5px;
 }
 
-/* line 323, ../components/sass/main.scss */
+/* line 327, ../components/sass/main.scss */
 .callout-block {
   float: right;
   position: relative;
   text-align: center;
 }
 
-/* line 341, ../components/sass/main.scss */
+/* line 345, ../components/sass/main.scss */
 .callout-image--small {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -408,13 +416,13 @@ COMPASS AESTHETIC STYLES
   max-width: 250px;
 }
 @media (max-width: 991px) {
-  /* line 341, ../components/sass/main.scss */
+  /* line 345, ../components/sass/main.scss */
   .callout-image--small {
     display: none;
   }
 }
 
-/* line 346, ../components/sass/main.scss */
+/* line 350, ../components/sass/main.scss */
 .callout-image--medium {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -427,13 +435,13 @@ COMPASS AESTHETIC STYLES
   max-width: 300px;
 }
 @media (max-width: 991px) {
-  /* line 346, ../components/sass/main.scss */
+  /* line 350, ../components/sass/main.scss */
   .callout-image--medium {
     display: none;
   }
 }
 
-/* line 351, ../components/sass/main.scss */
+/* line 355, ../components/sass/main.scss */
 .callout-image--large {
   position: relative;
   margin: 100px 3em 3em 3em;
@@ -446,13 +454,13 @@ COMPASS AESTHETIC STYLES
   max-width: 500px;
 }
 @media (max-width: 991px) {
-  /* line 351, ../components/sass/main.scss */
+  /* line 355, ../components/sass/main.scss */
   .callout-image--large {
     display: none;
   }
 }
 
-/* line 369, ../components/sass/main.scss */
+/* line 373, ../components/sass/main.scss */
 .callout-caption {
   position: relative;
   width: 75%;
@@ -462,52 +470,54 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 369, ../components/sass/main.scss */
+  /* line 373, ../components/sass/main.scss */
   .callout-caption {
     display: none;
   }
 }
 
-/* line 373, ../components/sass/main.scss */
+/* line 377, ../components/sass/main.scss */
 #production-first-reactor-callout {
   clear: left;
 }
-/* line 375, ../components/sass/main.scss */
+/* line 379, ../components/sass/main.scss */
 #production-first-reactor-callout img {
   margin-right: 0;
   margin-left: 5px;
-  max-width: 350px;
+  max-width: 375px;
 }
 @media (min-width: 1199px) {
-  /* line 373, ../components/sass/main.scss */
+  /* line 377, ../components/sass/main.scss */
   #production-first-reactor-callout {
     margin-right: 40px;
   }
 }
 
-/* line 388, ../components/sass/main.scss */
+/* line 392, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 392, ../components/sass/main.scss */
+/* line 396, ../components/sass/main.scss */
 #production-callout-image-large {
   margin-top: 32px;
   max-width: 440px;
 }
 
-/* line 397, ../components/sass/main.scss */
+/* line 401, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
 }
-/* line 401, ../components/sass/main.scss */
+/* line 405, ../components/sass/main.scss */
 .sourcing-advantage a, .sourcing-advantage nav ul a:hover, nav ul .sourcing-advantage a:hover, .sourcing-advantage nav ul .active, nav ul .sourcing-advantage .active, .sourcing-advantage #mobile-menu a:hover, #mobile-menu .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu .active, #mobile-menu .sourcing-advantage .active, .sourcing-advantage #mobile-menu #tab-facilities-dropdown a:hover, #mobile-menu #tab-facilities-dropdown .sourcing-advantage a:hover, .sourcing-advantage #mobile-menu #tab-facilities-dropdown .active, #mobile-menu #tab-facilities-dropdown .sourcing-advantage .active {
   text-decoration: none;
 }
 
-/* line 406, ../components/sass/main.scss */
+/* line 410, ../components/sass/main.scss */
 .services-rnd-callout-caption {
+  padding-top: 32px;
+  padding-bottom: 0;
   position: relative;
   width: 75%;
   margin: 0 auto;
@@ -516,20 +526,21 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 406, ../components/sass/main.scss */
+  /* line 410, ../components/sass/main.scss */
   .services-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 410, ../components/sass/main.scss */
+/* line 416, ../components/sass/main.scss */
 .services-rnd-callout-image {
+  margin-top: 75px;
   margin-left: 5em;
   margin-right: 5em;
-  max-height: 200px;
+  max-height: 155px;
 }
 
-/* line 416, ../components/sass/main.scss */
+/* line 423, ../components/sass/main.scss */
 .production-callout-caption {
   position: relative;
   width: 75%;
@@ -539,13 +550,13 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 416, ../components/sass/main.scss */
+  /* line 423, ../components/sass/main.scss */
   .production-callout-caption {
     display: none;
   }
 }
 
-/* line 420, ../components/sass/main.scss */
+/* line 427, ../components/sass/main.scss */
 .china-rnd-callout-caption {
   position: relative;
   width: 75%;
@@ -555,24 +566,24 @@ COMPASS AESTHETIC STYLES
   font-style: italic;
 }
 @media (max-width: 991px) {
-  /* line 420, ../components/sass/main.scss */
+  /* line 427, ../components/sass/main.scss */
   .china-rnd-callout-caption {
     display: none;
   }
 }
 
-/* line 424, ../components/sass/main.scss */
+/* line 431, ../components/sass/main.scss */
 .china-callout {
   margin-top: 125px;
   margin-right: -20px;
 }
 
-/* line 429, ../components/sass/main.scss */
+/* line 436, ../components/sass/main.scss */
 .china-callout2 {
   margin-top: 50px;
 }
 
-/* line 433, ../components/sass/main.scss */
+/* line 440, ../components/sass/main.scss */
 .about-callout-caption {
   position: relative;
   width: 75%;
@@ -583,53 +594,64 @@ COMPASS AESTHETIC STYLES
   width: 80%;
 }
 @media (max-width: 991px) {
-  /* line 433, ../components/sass/main.scss */
+  /* line 440, ../components/sass/main.scss */
   .about-callout-caption {
     display: none;
   }
 }
 
-/* line 438, ../components/sass/main.scss */
+/* line 445, ../components/sass/main.scss */
 .about-callout-image {
   margin-left: 3em;
 }
 
-/* line 442, ../components/sass/main.scss */
+/* line 449, ../components/sass/main.scss */
 .about-callout-block {
   width: 40%;
 }
 
-/* line 446, ../components/sass/main.scss */
+/* line 453, ../components/sass/main.scss */
 .production-callout-image {
   margin-bottom: 3em;
 }
 
-/* line 450, ../components/sass/main.scss */
+/* line 457, ../components/sass/main.scss */
+#usa-callout-small {
+  margin-bottom: 1.5em;
+}
+
+/* line 461, ../components/sass/main.scss */
 #rnd-usa-first-large-callout {
   max-width: 460px;
-  margin-top: 5px;
+  margin-top: 0;
   margin-left: 5em;
 }
 
-/* line 456, ../components/sass/main.scss */
+/* line 467, ../components/sass/main.scss */
 #rnd-usa-large-callout {
   margin-top: -25px;
   max-width: 460px;
 }
 
-/* line 461, ../components/sass/main.scss */
+/* line 472, ../components/sass/main.scss */
 #rnd-large-callout-caption {
+  padding-top: 10px;
   width: 100%;
 }
 
-/* line 465, ../components/sass/main.scss */
+/* line 477, ../components/sass/main.scss */
 .sourcing-advantage {
   padding: 0;
   font-weight: bold;
 }
 
-/* line 470, ../components/sass/main.scss */
+/* line 482, ../components/sass/main.scss */
 .contact-callout {
   margin-right: 50px;
   margin-top: -12px;
+}
+/* line 485, ../components/sass/main.scss */
+.contact-callout img {
+  margin-top: 90px;
+  margin-bottom: 2em;
 }

@@ -4,3 +4,4 @@ node_modules/*
 .git/*
 .sass-cache/*
 *.map
+config.rb

@@ -12,3 +12,11 @@ $tabletsize: 991px; // OR: 61.938rem w/ 16px base
 $phonesize: 767px; // OR: 39.000rem w/ 16px base
 $large_banner: 1509px;
 $med_banner: 1199px;
+
+// Vendor Prefix mixin
+@mixin vendor-prefixes($property, $value) {
+    -webkit-#{$property}: $value;
+    -moz-#{$property}: $value;
+    -ms-#{$property}: $value;
+    -o-#{$property}: $value;
+}
